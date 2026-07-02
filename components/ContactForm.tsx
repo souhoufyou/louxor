@@ -31,7 +31,7 @@ export function ContactForm() {
       setSubmitted(true);
       setForm({ name: '', email: '', message: '' });
     } catch (err) {
-      setError(err instanceof Error ? err.message : 'Erreur lors de l\'envoi');
+      setError(err instanceof Error ? err.message : 'Erreur lors de l&apos;envoi');
     } finally {
       setLoading(false);
     }
