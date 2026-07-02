@@ -27,14 +27,22 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'Adresse email invalide.' }, { status: 400 });
   }
 
-  if (!process.env.RESEND_API_KEY) {
-    // Pas encore configuré — on logue et on simule le succès en dev
-    console.warn('[contact] RESEND_API_KEY absent — email non envoyé. Configurez .env.local.');
-    return NextResponse.json({ ok: true });
+  if (!process.env.GMAIL_USER || !process.env.GMAIL_APP_PASSWORD) {
+    console.warn('[contact] GMAIL_USER / GMAIL_APP_PASSWORD absent — email non envoyé. Configurez .env.local.');
+    return NextResponse.json(
+      { error: 'Configuration email manquante côté serveur.' },
+      { status: 500 },
+    );
   }
 
-  const { Resend } = await import('resend');
-  const resend = new Resend(process.env.RESEND_API_KEY);
+  const nodemailer = await import('nodemailer');
+  const transporter = nodemailer.createTransport({
+    service: 'gmail',
+    auth: {
+      user: process.env.GMAIL_USER,
+      pass: process.env.GMAIL_APP_PASSWORD,
+    },
+  });
 
   const rows = [
     ['Nom', nom],
@@ -59,16 +67,16 @@ export async function POST(req: NextRequest) {
   <p style="font-size:12px;color:#888;margin-top:24px">Envoyé depuis guidefrancophonelouxor.com</p>
 </body></html>`;
 
-  const { error } = await resend.emails.send({
-    from: 'Formulaire Contact <contact@guidefrancophonelouxor.com>',
-    to: 'guidefrancophonelouxor@gmail.com',
-    replyTo: email,
-    subject: `Demande de devis — ${nom}`,
-    html,
-  });
-
-  if (error) {
-    console.error('[contact] Erreur Resend:', error);
+  try {
+    await transporter.sendMail({
+      from: `Formulaire Contact <${process.env.GMAIL_USER}>`,
+      to: 'guidefrancophonelouxor@gmail.com',
+      replyTo: email,
+      subject: `Demande de devis — ${nom}`,
+      html,
+    });
+  } catch (err) {
+    console.error('[contact] Erreur Nodemailer:', err);
     return NextResponse.json(
       { error: 'Envoi échoué. Réessayez ou contactez-nous par WhatsApp.' },
       { status: 500 },
