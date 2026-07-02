@@ -42,7 +42,7 @@ export function ContactForm() {
       <div className="flex flex-col items-center gap-4 py-8 text-center">
         <CheckCircle size={48} className="text-gold" />
         <p className="text-white text-lg font-display">Email envoyé avec succès !</p>
-        <p className="text-white/60 text-sm">Hisham vous répondra dans les plus brefs délais à l'adresse indiquée.</p>
+        <p className="text-white/60 text-sm">Hisham vous répondra dans les plus brefs délais à l&apos;adresse indiquée.</p>
         <button
           onClick={() => { setSubmitted(false); setForm({ name: '', email: '', message: '' }); }}
           className="btn btn-outline-white mt-2 text-xs"
