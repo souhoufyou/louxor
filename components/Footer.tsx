@@ -54,7 +54,7 @@ export async function Footer() {
                 </svg>
               </a>
               <a
-                href="https://www.instagram.com/hicham_guidefrancophone_louxor"
+                href="https://www.instagram.com/hisham_guide_francophone_louxo?igsh=MXNydWtsdDVmN3dxcg=="
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"
