@@ -1,0 +1,101 @@
+{
+  "slug": "excursions-hurghada",
+  "type": "excursion",
+  "category": "Hurghada",
+  "legacyPath": "/hurghada",
+  "name": "Excursions au départ d'Hurghada",
+  "seo": {
+    "title": "Excursions depuis Hurghada | Louxor, Le Caire, mer Rouge & désert",
+    "description": "Excursions au départ d'Hurghada avec guide francophone : journée à Louxor ou au Caire, île de Giftun, safari désert, sous-marin Sindbad et Sharm el-Naga."
+  },
+  "hero": {
+    "image": "/images/destinations/mer-rouge/hurghada-plage-eau-cristal.webp",
+    "tagline": "La mer Rouge le matin, les pharaons l'après-midi"
+  },
+  "intro": "Située au bord de la mer Rouge, Hurghada offre l'un des plus beaux fonds marins au monde, un ciel d'azur toute l'année et des températures constantes. C'est aussi une base idéale pour explorer les trésors pharaoniques : Louxor n'est qu'à 3 heures de route, Le Caire à 4-5 heures. Toutes nos visites vers Louxor, Assouan et Le Caire sont organisées au départ de votre hôtel d'Hurghada, avec transport privé climatisé et guide francophone.",
+  "difficulty": "Facile (excursions en mer et culturelles adaptées à tous)",
+  "priceFrom": "Sur devis selon l'excursion choisie",
+  "included": [
+    "Transport en véhicule climatisé depuis et vers votre hôtel d'Hurghada",
+    "Guide francophone pour toutes les excursions culturelles",
+    "Billets d'entrée des sites pour les excursions culturelles",
+    "Déjeuner inclus pour les journées complètes (sauf mention contraire)"
+  ],
+  "excluded": [
+    "Boissons non comprises dans les repas",
+    "Dépenses personnelles et achats",
+    "Équipement de plongée ou snorkeling (location disponible sur place)",
+    "Pourboires"
+  ],
+  "programs": [
+    {
+      "title": "Journée à Louxor depuis Hurghada",
+      "duration": "1 jour — véhicule privé climatisé avec chauffeur",
+      "description": "Prise en charge à votre hôtel d'Hurghada. Rive Est : temple de Karnak (salle hypostyle, obélisques, allée des sphinx). Déjeuner dans un restaurant typique. Rive Ouest : la Vallée des Rois (3 tombes), le temple d'Hatchepsout à Deir el-Bahari et les Colosses de Memnon. Le prix comprend le transfert aller-retour en voiture privée, les billets d'entrée des sites, le guide privé et le déjeuner (hors boissons)."
+    },
+    {
+      "title": "Journée au Caire depuis Hurghada",
+      "duration": "1 jour — départ tôt le matin",
+      "description": "Route vers Le Caire et visite du plateau de Gizeh : les pyramides de Khéops, Khéphren et Mykérinos, le temple de la vallée et le Sphinx. Déjeuner dans un restaurant typique. Visite du Musée égyptien et de ses milliers de chefs-d'œuvre, dont le trésor complet de Toutânkhamon et la salle des momies royales. Promenade dans le quartier islamique médiéval et le souk de Khan el-Khalili. Retour à votre hôtel d'Hurghada."
+    },
+    {
+      "title": "Journée en mer — Orange Bay",
+      "duration": "1 jour (env. 8h – 16h)",
+      "description": "Prise en charge à votre hôtel, puis navigation vers l'est d'Hurghada jusqu'à un premier spot de snorkeling parmi récifs coralliens et poissons. Continuation vers Orange Bay, l'une des plus belles plages de la région, pour environ 2 heures de détente sur le sable blanc. Second arrêt snorkeling, déjeuner servi à bord, puis retour à la jetée. Inclus : transferts climatisés, eau et boissons à bord, guide accompagnateur, déjeuner, taxes et équipement de snorkeling."
+    },
+    {
+      "title": "Journée vers l'île de Giftun (île Paradise)",
+      "duration": "1 jour",
+      "description": "Excursion en bateau vers l'île de Giftun, avec repas à bord et vue incomparable. Snorkeling pendant environ 45 minutes près d'un grand récif corallien dans l'eau cristalline de la mer Rouge, puis détente sur la magnifique plage de sable blanc de l'île."
+    },
+    {
+      "title": "Safari dans le désert",
+      "duration": "Après-midi et soirée (env. 14h – 22h)",
+      "description": "Départ en 4x4 vers un village bédouin authentique : initiation à la vie du désert, balade à dos de dromadaire, conduite de quad. Coucher de soleil dans les dunes, soirée orientale avec musique traditionnelle, danse du ventre et spectacle de feu. Observation des étoiles au télescope. Retour à l'hôtel."
+    },
+    {
+      "title": "Demi-journée — visite d'Hurghada",
+      "duration": "Une demi-journée",
+      "description": "Visite de la grande mosquée de la ville, de la cathédrale, de l'aquarium et du souk avec ses parfums et ses épices. Arrêt final sur un point élevé offrant une vue panoramique sur la ville, la mer Rouge et ses îles."
+    },
+    {
+      "title": "Sous-marin Sindbad",
+      "duration": "Demi-journée",
+      "description": "Embarquez à bord d'un véritable sous-marin qui descend jusqu'à 20 m de profondeur. Ses vitres panoramiques permettent d'observer de près poissons tropicaux et récifs coralliens dans leur habitat naturel — idéal pour découvrir le monde sous-marin de la mer Rouge sans plonger."
+    },
+    {
+      "title": "Journée à Sharm el-Naga",
+      "duration": "1 jour",
+      "description": "À 40 km d'Hurghada, une réserve naturelle préservée où les poissons viennent tourbillonner autour de vos jambes dès l'entrée dans l'eau. Snorkeling, plongée d'initiation, détente sous les parasols, pique-nique et boissons fraîches inclus."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Combien de temps prend le trajet d'Hurghada à Louxor en voiture ?",
+      "answer": "Le trajet en voiture privée d'Hurghada à Louxor prend environ 3h à 3h30 selon le trafic. Nous partons tôt le matin (5h-6h) pour maximiser le temps de visite sur place. La route traverse le désert oriental — un paysage saisissant en lui-même."
+    },
+    {
+      "question": "Peut-on faire Le Caire et Louxor depuis Hurghada en combiné ?",
+      "answer": "Oui, nous proposons des programmes combinés depuis Hurghada : journée au Caire (4-5h de route ou 40 min d'avion) et journée à Louxor (3h de route). Ces excursions peuvent être organisées sur des jours consécutifs ou séparés selon votre planning de séjour."
+    },
+    {
+      "question": "La journée en mer est-elle adaptée aux non-nageurs ?",
+      "answer": "Oui, toutes nos excursions en mer sont accessibles aux non-nageurs. Le bateau dispose de gilets de sauvetage, et le snorkeling se pratique dans des zones peu profondes. Pour les non-nageurs, la journée reste très agréable avec la détente sur la plage d'Orange Bay ou de l'île Giftun."
+    },
+    {
+      "question": "Comment organiser plusieurs excursions depuis mon hôtel d'Hurghada ?",
+      "answer": "Contactez-nous dès votre arrivée à Hurghada (ou avant votre départ). Nous établissons ensemble un programme sur mesure selon la durée de votre séjour, vos centres d'intérêt (culturel, mer, désert) et votre budget. Prise en charge directement depuis votre hôtel pour chaque excursion."
+    },
+    {
+      "question": "Les excursions culturelles depuis Hurghada incluent-elles un guide francophone ?",
+      "answer": "Oui, toutes nos excursions culturelles (Louxor, Le Caire) incluent un guide égyptologue francophone diplômé. Pour les excursions en mer et le safari dans le désert, un guide accompagnateur francophone est présent pour faciliter votre visite. Nous assurons un service entièrement en français du début à la fin."
+    }
+  ],
+  "relatedDestinations": ["hurghada", "louxor", "caire"],
+  "gallery": [
+    "/images/legacy/-D9-A2-D9-A0-D9-A1-D9-A8-D9-A0-D9-A3-D9-A2-D9-A6_-D9-A1-D9-A-5d6583bf.jpg",
+    "/images/legacy/-D9-A2-D9-A0-D9-A1-D9-A7-D9-A0-D9-A9-D9-A2-D9-A9_-D9-A1-D9-A-072850a1.jpg",
+    "/images/legacy/-D9-A2-D9-A0-D9-A1-D9-A7-D9-A0-D9-A9-D9-A2-D9-A8_-D9-A0-D9-A-f9c193e0.jpg",
+    "/images/legacy/-D9-A2-D9-A0-D9-A1-D9-A7-D9-A0-D9-A9-D9-A2-D9-A8_-D9-A1-D9-A-4b37768e.jpg"
+  ]
+}

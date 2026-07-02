@@ -1,0 +1,27 @@
+{
+  "slug": "service-de-transfert-aeroport",
+  "type": "service",
+  "category": "Transfert",
+  "legacyPath": "/service-de-transfert-aeroport",
+  "name": "Service de transfert aéroport en Égypte",
+  "seo": {
+    "title": "Transferts aéroport en Égypte | Louxor, Hurghada, Assouan, Marsa Alam",
+    "description": "Service de transfert privé en Égypte : aéroports de Louxor, Hurghada, Assouan, Marsa Alam et Le Caire. Véhicules confortables et chauffeurs fiables, à prix abordables."
+  },
+  "hero": {
+    "image": "/images/destinations/louxor/nil-louxor-felouque.webp",
+    "tagline": "Des transferts confortables et sans stress"
+  },
+  "intro": "Choisissez parmi nos services de transfert depuis l'aéroport de Louxor vers diverses destinations. Profitez d'une expérience de transfert haut de gamme avec des véhicules confortables et des transferts en douceur entre l'aéroport de Louxor et Hurghada, Assouan ou Marsa Alam. Nous proposons une gamme de prestations adaptées à votre budget, du transfert abordable en navette aux véhicules privés et limousines. Nos chauffeurs fiables et sympathiques vous débarrassent des tracas du voyage.",
+  "coverage": {
+    "airports": ["Aéroport de Louxor", "Aéroport du Caire", "Aéroport d'Hurghada", "Aéroport de Marsa Alam", "Aéroport d'Assouan"],
+    "alsoServes": ["Gares", "Hôtels"]
+  },
+  "vehicleTypes": ["Navette", "Véhicule privé climatisé", "Limousine"],
+  "relatedDestinations": ["louxor", "hurghada", "caire", "assouan"],
+  "gallery": [
+    "/images/legacy/FB_IMG_1623425887232-fi31070496x420-9ba4e19b.jpg",
+    "/images/legacy/FB_IMG_1567549857268-fi31070538x420-3778448d.jpg",
+    "/images/legacy/FB_IMG_1626044064821-fi31070577x420-7b410070.jpg"
+  ]
+}

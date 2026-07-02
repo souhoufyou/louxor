@@ -1,0 +1,81 @@
+{
+  "slug": "caire",
+  "type": "destination",
+  "legacyPath": "/caire",
+  "name": "Le Caire",
+  "seo": {
+    "title": "Visite guidée privée du Caire avec guide francophone | Pyramides de Gizeh & Musée égyptien",
+    "description": "Découvrez Le Caire avec un guide francophone : pyramides de Gizeh et Sphinx, Musée égyptien, Citadelle, Khan el-Khalili et Saqqarah. Excursions privées sur mesure."
+  },
+  "hero": {
+    "image": "/images/destinations/caire/pyramides-gizeh-aerial-desert.webp",
+    "tagline": "La capitale millénaire, entre pyramides et cité médiévale"
+  },
+  "intro": "Le Caire est une ville immense, riche de nombreux quartiers touristiques, d'hébergements, de restaurants et d'une vie nocturne animée. Capitale de l'Égypte et l'une des plus grandes villes d'Afrique et du Moyen-Orient avec plus de 20 millions d'habitants dans son agglomération, Le Caire est située sur le Nil et célèbre pour son histoire, préservée dans la fabuleuse cité médiévale islamique et copte du Vieux Caire. Le Musée égyptien, au centre-ville, est incontournable avec ses innombrables objets de l'Égypte ancienne, tout comme le bazar de Khan el-Khalili. Aucun voyage au Caire ne serait complet sans une visite des pyramides de Gizeh et du complexe de Saqqarah, où l'on découvre la première pyramide à degrés, construite par l'architecte Imhotep. Avec votre guide francophone, vous explorez la capitale égyptienne à votre rythme, loin de l'agitation des circuits en groupe.",
+  "highlights": [
+    { "name": "Pyramides de Gizeh et Sphinx", "description": "Seules survivantes des Sept Merveilles du monde antique, les pyramides de Khéops, Khéphren et Mykérinos sont l'attraction la plus célèbre d'Égypte. Le Sphinx veille sur elles depuis 4 500 ans." },
+    { "name": "Musée égyptien (place Tahrir)", "description": "La première collection au monde d'objets de l'Égypte ancienne, avec le trésor complet de Toutânkhamon et la salle des momies royales. Plus de 120 000 pièces exposées." },
+    { "name": "La Citadelle", "description": "Grand château fort du Caire islamique, construit par Saladin au XIIe siècle. Abrite la mosquée d'Alabâtre (Muhammad Ali) avec son panorama exceptionnel sur la ville." },
+    { "name": "Mosquée Al-Azhar", "description": "L'un des piliers de la pensée islamique, abritant la plus ancienne université du monde en activité (970 apr. J.-C.). Un joyau d'architecture fatimide." },
+    { "name": "Mosquée Ibn Touloun", "description": "La plus ancienne mosquée du Caire encore debout (879), avec son minaret en spirale unique en Égypte. L'une des plus belles de l'Afrique islamique." },
+    { "name": "Musée copte et église suspendue", "description": "Au cœur du Caire copte, l'église de la Vierge Marie (dite 'suspendue') et le musée d'art copte, qui retrace 2 000 ans de christianisme en Égypte." },
+    { "name": "Tour du Caire (île de Gezira)", "description": "185 mètres de haut, avec une vue à 360° sur la ville, le Nil et, par temps clair, les pyramides à l'horizon. Restaurant panoramique au sommet." },
+    { "name": "Parc Al-Azhar", "description": "Jardin aménagé sur une ancienne décharge médiévale, avec une belle vue sur la Citadelle et les minarets du Caire historique. Idéal pour une pause en milieu de journée." },
+    { "name": "Khan el-Khalili", "description": "Le grand souk du Caire depuis le XIVe siècle : parfums, épices, or, cuivre et artisanat égyptien dans un labyrinthe de ruelles animées. Idéal en fin d'après-midi." },
+    { "name": "Saqqarah", "description": "La pyramide à degrés de Djéser, première pyramide d'Égypte (2650 av. J.-C.), œuvre de l'architecte Imhotep. Le complexe funéraire est l'un des plus fascinants d'Égypte." }
+  ],
+  "practicalInfo": {
+    "bestPeriod": "Octobre à avril — températures agréables (18-28°C). Été chaud (35-40°C) mais visites possibles tôt le matin.",
+    "daysRecommended": "2 à 3 jours pour voir l'essentiel — 1 journée possible en excursion depuis Hurghada.",
+    "tips": [
+      "Visitez les pyramides à l'ouverture (8h) pour éviter chaleur et vendeurs insistants",
+      "Le Musée égyptien mérite à lui seul une demi-journée — ne le précipitez pas",
+      "Khan el-Khalili est plus agréable et moins chaud en fin d'après-midi"
+    ]
+  },
+  "faq": [
+    {
+      "question": "Combien de temps prévoir pour visiter les pyramides de Gizeh ?",
+      "answer": "Comptez 2 à 3 heures pour le plateau de Gizeh : les trois pyramides (Khéops, Khéphren, Mykérinos), le Sphinx et le temple de la vallée. Si vous souhaitez entrer dans la grande pyramide de Khéops, ajoutez 1 heure et réservez les billets à l'avance (accès limité à 300 personnes par jour)."
+    },
+    {
+      "question": "Peut-on entrer à l'intérieur des pyramides de Gizeh ?",
+      "answer": "Oui, il est possible d'entrer dans la pyramide de Khéops et dans celle de Khéphren moyennant un supplément au billet d'entrée du site. L'intérieur est étroit avec des couloirs en pente — déconseillé aux personnes claustrophobes ou à mobilité réduite. L'expérience vaut le coup pour l'émotion de se retrouver au cœur de la chambre funéraire."
+    },
+    {
+      "question": "Peut-on visiter Le Caire en une seule journée depuis Hurghada ?",
+      "answer": "Oui, une journée au Caire depuis Hurghada est possible en voiture (environ 4-5 heures selon le trafic) ou en avion (40 minutes). Nous organisons des excursions d'une journée complète depuis votre hôtel, incluant les pyramides, le Sphinx et le musée égyptien — prise en charge dès 5h du matin."
+    },
+    {
+      "question": "Le Musée égyptien est-il ouvert tous les jours ?",
+      "answer": "Le Musée égyptien du Caire (place Tahrir) est ouvert tous les jours de 9h à 17h. Il abrite plus de 120 000 objets dont le trésor complet de Toutânkhamon et la salle des momies royales. Comptez au minimum 2 heures pour les collections principales."
+    },
+    {
+      "question": "Est-il sûr de visiter Le Caire en tant que touriste ?",
+      "answer": "Le Caire est une destination sûre pour les touristes dans les zones touristiques (Gizeh, Zamalek, centre-ville). Comme dans toute grande métropole, il est recommandé de rester vigilant dans les marchés animés et d'éviter de se promener seul la nuit dans des quartiers inconnus. Votre guide francophone connaît parfaitement la ville et vous accompagne en toute sérénité."
+    },
+    {
+      "question": "Peut-on combiner Le Caire et Louxor en un seul voyage ?",
+      "answer": "Absolument. La plupart de nos voyageurs combinent Le Caire (2 jours) avec Louxor (3 jours) et/ou Assouan (2 jours). Des vols intérieurs bon marché relient Le Caire à Louxor et Assouan en 1 heure. Nous organisons l'ensemble du programme sur mesure selon vos dates et vos envies."
+    }
+  ],
+  "relatedExcursions": ["transfert-aeroport"],
+  "gallery": [
+    "/images/destinations/caire/pyramides-gizeh-caire-egypte.webp",
+    "/images/destinations/caire/pyramides-gizeh-aerial-desert.webp",
+    "/images/destinations/caire/sphinx-gizeh-vue-frontale.webp",
+    "/images/destinations/caire/pyramides-gizeh-lever-soleil.webp",
+    "/images/destinations/caire/pyramides-gizeh-brume-matin.webp",
+    "/images/destinations/caire/pyramides-sphinx-vue-laterale.webp",
+    "/images/destinations/caire/pyramides-gizeh-chameaux-desert.webp",
+    "/images/destinations/caire/sphinx-gizeh-caire-egypte.webp",
+    "/images/destinations/caire/pyramides-gizeh-nuit-etoiles.webp",
+    "/images/destinations/caire/pyramides-gizeh-coucher-soleil.webp",
+    "/images/destinations/caire/pyramides-gizeh-coucher-panorama.webp",
+    "/images/destinations/caire/pyramides-gizeh-vue-rapprochee.webp",
+    "/images/destinations/caire/pyramides-sphinx-coucher-soleil.webp",
+    "/images/destinations/caire/pyramides-gizeh-panorama-desert.webp",
+    "/images/destinations/caire/pyramides-gizeh-desert-caire.webp",
+    "/images/destinations/caire/pyramides-gizeh-vue-panoramique.webp"
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "slug": "excursions-louxor",
+  "type": "excursion",
+  "category": "Louxor",
+  "legacyPath": "/visites",
+  "name": "Excursions et programmes à Louxor",
+  "seo": {
+    "title": "Excursions à Louxor avec guide francophone | Programmes 1 à 3 jours",
+    "description": "Programmes de visite à Louxor avec guide égyptologue francophone : demi-journées, journées entières, séjours 2 et 3 jours. Karnak, Vallée des Rois, Abydos, Dendérah."
+  },
+  "hero": {
+    "image": "/images/destinations/louxor/temple-karnak-avenue-sphinx.webp",
+    "tagline": "Des programmes intimistes, sur mesure et sans stress"
+  },
+  "intro": "Toutes ces visites se font avec un guide expérimenté et assermenté, maîtrisant parfaitement la langue française. Les programmes peuvent être combinés entre eux ou suivis séparément pour une approche plus approfondie. Les visites de la rive ouest et de la rive est de Louxor s'adaptent à votre rythme et à vos centres d'intérêt.",
+  "difficulty": "Facile à modéré selon le programme",
+  "priceFrom": "Sur devis — à partir de 60 €/pers. pour une demi-journée",
+  "included": [
+    "Guide égyptologue francophone privé",
+    "Transport en véhicule climatisé avec chauffeur",
+    "Prise en charge et retour à votre hôtel ou bateau de croisière",
+    "Billets d'entrée des sites principaux inclus dans le programme"
+  ],
+  "excluded": [
+    "Entrée à la tombe de Toutânkhamon (env. 10 $, option sur place)",
+    "Entrée grande tombe de Ramsès VI (env. 10 $)",
+    "Tombe de Séti Ier (env. 25 $)",
+    "Repas et boissons (déjeuner non compris sauf mention)",
+    "Pourboires"
+  ],
+  "programs": [
+    {
+      "title": "Demi-journée — Rive Ouest",
+      "duration": "Une demi-journée (matin)",
+      "items": ["Les Colosses de Memnon", "La Vallée des Rois (3 tombes incluses)", "Le Temple d'Hatchepsout à Deir el-Bahari", "Le Temple de Medinet Habou"]
+    },
+    {
+      "title": "Demi-journée — Rive Est",
+      "duration": "Une demi-journée (après-midi)",
+      "items": ["Le Temple de Karnak (grande salle hypostyle, obélisques d'Hatchepsout)", "Le Temple de Louxor et l'allée des sphinx (dromos)"]
+    },
+    {
+      "title": "Une journée entière à Louxor",
+      "duration": "1 journée complète",
+      "days": [
+        {
+          "label": "Matin — Rive Ouest",
+          "items": ["Les Colosses de Memnon", "La Vallée des Rois (3 tombes incluses)", "Le Temple d'Hatchepsout", "Le Temple de Medinet Habou"]
+        },
+        {
+          "label": "Pause déjeuner (2 h dans un restaurant typique)",
+          "items": []
+        },
+        {
+          "label": "Après-midi — au choix",
+          "items": ["Les Tombes des Nobles, le Village des Artisans et la Vallée des Reines", "ou la Rive Est : le Temple de Karnak et le Temple de Louxor"]
+        }
+      ]
+    },
+    {
+      "title": "2 jours à Louxor en toute intimité",
+      "duration": "2 jours",
+      "days": [
+        {
+          "label": "1er jour — Rive Ouest",
+          "items": ["Matin : la Vallée des Rois, le Temple d'Hatchepsout, le Temple de Medinet Habou", "Pause déjeuner (2 h)", "Après-midi : le Village des Artisans, la Vallée des Reines, les Colosses de Memnon"]
+        },
+        {
+          "label": "2e jour — Rive Est",
+          "items": ["Le Temple de Karnak", "Le Temple de Louxor", "Options proposées l'après-midi : balade en felouque jusqu'à l'île aux Bananes et visite du souk"]
+        }
+      ]
+    },
+    {
+      "title": "3 jours à Louxor pour ne rien regretter",
+      "duration": "3 jours",
+      "days": [
+        {
+          "label": "1er jour — Rive Ouest",
+          "items": ["Les Colosses de Memnon", "La Vallée des Rois", "Le Temple d'Hatchepsout", "Le Temple de Medinet Habou", "Option le soir : spectacle son et lumière au temple de Karnak"]
+        },
+        {
+          "label": "2e jour — Rive Est",
+          "items": ["Le Temple de Karnak", "Le Temple de Louxor", "Options : le Musée de Louxor et le Musée de la Momification"]
+        },
+        {
+          "label": "3e jour — Trésors méconnus",
+          "items": ["Le Ramesséum", "Les Tombes des Nobles", "Le Village des Artisans (Deir el-Médineh)", "La Vallée des Reines", "Option : balade en felouque jusqu'à l'île aux Bananes"]
+        }
+      ]
+    }
+  ],
+  "options": [
+    { "name": "Montgolfière au lever du soleil", "description": "Survolez la rive ouest de Louxor, ses temples et le Nil au lever du soleil — un moment magique et inoubliable. Prise en charge et retour à votre hôtel. Disponible tous les jours, le matin avant le début des excursions." },
+    { "name": "Balade en felouque jusqu'à l'île aux Bananes", "description": "Un moment de détente au gré du vent jusqu'à l'île, où vous accosterez pour boire un thé et goûter ses fameuses petites bananes, suivi d'une visite du souk de Louxor et de ses senteurs d'Orient." },
+    { "name": "Son et lumière du temple de Karnak", "description": "Le soir, dans un jeu de lumières féeriques, vous traversez le temple pendant que vous est contée l'histoire millénaire du haut lieu du clergé d'Amon. En français plusieurs soirs par semaine." },
+    { "name": "Musée de Louxor et Musée de la Momification", "description": "Deux musées d'exception : une sélection des plus belles statues et objets de la vallée thébaine, et une approche approfondie de l'art de la momification avec ses instruments et ses secrets." },
+    { "name": "Tombe de Toutânkhamon", "description": "La seule tombe royale intacte jamais retrouvée en Égypte, découverte par Howard Carter en 1922. Billet supplémentaire requis (~10 $). Actuellement ouverte au public (sous réserve)." }
+  ],
+  "dayTrips": [
+    {
+      "title": "Excursion vers Abydos et Dendérah",
+      "duration": "1 jour (départ tôt le matin)",
+      "description": "Départ pour le temple d'Abydos, à 150 km de Louxor, construit par Séti Ier puis achevé par Ramsès II et réputé pour ses peintures d'une qualité exceptionnelle ; lieu de culte majeur de l'Antiquité lié au dieu Osiris. Puis Dendérah, fraîchement restauré, le célèbre temple dédié à la déesse Hathor, déesse de l'amour et de la musique : un escalier mène sur le toit du temple où l'on découvre le fameux zodiaque gravé au plafond (l'original est aujourd'hui au musée du Louvre à Paris)."
+    },
+    {
+      "title": "Excursion vers Edfou et Kom Ombo",
+      "duration": "1 jour (départ tôt le matin)",
+      "description": "Direction les temples d'Edfou et de Kom Ombo, à environ 160 km de Louxor. Le temple d'Edfou, en grès et d'époque ptolémaïque, est dédié au dieu faucon Horus ; c'est l'un des temples les mieux conservés d'Égypte. Le temple de Kom Ombo, d'époque gréco-romaine, est un double temple dédié au dieu crocodile Sobek et au dieu faucon Haroéris, où l'on découvre notamment une rare représentation d'instruments chirurgicaux de l'époque pharaonique."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quelle est la meilleure façon de visiter la rive ouest de Louxor ?",
+      "answer": "La rive ouest se visite idéalement en demi-journée ou en journée entière avec votre guide. Nous recommandons de commencer dès 7h du matin pour éviter la chaleur de la mi-journée et les groupes de touristes. La séquence classique : Colosses de Memnon (point de vue), Vallée des Rois (2-3h), Temple d'Hatchepsout (45 min), Medinet Habou (45 min)."
+    },
+    {
+      "question": "Peut-on combiner les deux rives en une seule journée ?",
+      "answer": "Oui, notre programme « Une journée entière à Louxor » couvre les deux rives : matin sur la rive ouest (Vallée des Rois, Hatchepsout, Medinet Habou) et après-midi sur la rive est (Karnak, Temple de Louxor). C'est la formule idéale pour les voyageurs de passage qui ont une seule journée à Louxor."
+    },
+    {
+      "question": "Les billets d'entrée des sites sont-ils inclus dans le tarif ?",
+      "answer": "Les billets d'entrée des sites principaux sont inclus dans notre tarif. Seules quelques options supplémentaires sont à régler sur place : la tombe de Toutânkhamon (env. 10 $), la grande tombe de Ramsès VI (env. 10 $) et le tombeau de Séti Ier (env. 25 $). Ces sites valent largement le supplément."
+    },
+    {
+      "question": "Peut-on organiser une excursion vers Abydos et Dendérah depuis Louxor ?",
+      "answer": "Oui, Abydos et Dendérah font partie de nos excursions à la journée depuis Louxor. Abydos (150 km au nord) abrite l'un des temples les mieux peints d'Égypte (Séti Ier), et Dendérah est célèbre pour son temple de la déesse Hathor et son fameux zodiaque au plafond (le toit est accessible, vue panoramique incluse)."
+    },
+    {
+      "question": "Le transport est-il inclus depuis mon hôtel ?",
+      "answer": "Oui, toutes nos excursions incluent le transport en véhicule privé climatisé depuis et vers votre hôtel à Louxor ou votre bateau de croisière. Pas besoin de chercher un taxi ou un bus — nous gérons tout pour vous, de la prise en charge au retour."
+    }
+  ],
+  "relatedDestinations": ["louxor"],
+  "gallery": [
+    "/images/legacy/img_1655-20-1-fi3478947x490-eadc5ae0.jpg",
+    "/images/legacy/FB_IMG_1567544001050-fi18282562x490-ac0b601e.jpg",
+    "/images/legacy/FB_IMG_1567544025593-fi18282571x490-e365d1cb.jpg",
+    "/images/legacy/FB_IMG_1567544366780-fi18282604x490-8bef3b67.jpg"
+  ]
+}

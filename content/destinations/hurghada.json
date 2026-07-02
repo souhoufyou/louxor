@@ -1,0 +1,75 @@
+{
+  "slug": "hurghada",
+  "type": "destination",
+  "legacyPath": "/hurghada",
+  "name": "Hurghada",
+  "seo": {
+    "title": "Excursions depuis Hurghada avec guide francophone | Louxor, Le Caire, mer Rouge",
+    "description": "Hurghada sur la mer Rouge : excursions à Louxor et Le Caire, plongée et snorkeling, île de Giftun, safari dans le désert. Guide francophone depuis votre hôtel."
+  },
+  "hero": {
+    "image": "/images/destinations/mer-rouge/coucher-soleil-mer-rouge-egypte.webp",
+    "tagline": "Le soleil de la mer Rouge, base idéale pour explorer l'Égypte"
+  },
+  "intro": "Hurghada est une station balnéaire de la côte de la mer Rouge. Autrefois modeste village de pêcheurs bordé de superbes plages, elle est devenue la destination touristique la plus visitée d'Égypte, avec plus d'une centaine d'hôtels en bord de mer. Célèbre pour ses sites de plongée, Hurghada séduit aussi bien les plongeurs confirmés que les débutants venus admirer les récifs et la vie marine. De nombreux voyageurs combinent leur séjour balnéaire avec des excursions vers les hauts lieux de la vallée du Nil — Louxor n'est qu'à 3 heures de route. Avec votre guide francophone, partez à la découverte des pharaons le matin et revenez vous baigner dans la mer Rouge l'après-midi.",
+  "highlights": [
+    { "name": "Mer Rouge : plongée et snorkeling", "description": "Parmi les plus beaux fonds marins du monde, avec une faune et une flore sous-marines d'une diversité incroyable, accessibles toute l'année. Visibilité jusqu'à 30 mètres, eau entre 22 et 28°C." },
+    { "name": "Île de Giftun / Orange Bay", "description": "Sorties en bateau vers des plages de sable blanc et des récifs coralliens préservés, avec snorkeling et détente. L'une des plus belles plages de la mer Rouge." },
+    { "name": "Safari dans le désert", "description": "Quad, buggy et jeep jusqu'à un village bédouin authentique, balade à dos de dromadaire, coucher de soleil dans les dunes et soirée orientale avec spectacle." },
+    { "name": "Sous-marin Sindbad", "description": "Une plongée jusqu'à 20 m de profondeur derrière les hublots panoramiques d'un véritable sous-marin — idéal pour découvrir les fonds marins sans plonger." },
+    { "name": "Sharm el-Naga", "description": "Réserve naturelle à 40 km d'Hurghada, idéale pour le snorkeling dans une eau cristalline et la détente sur une plage préservée." },
+    { "name": "Base d'excursions culturelles", "description": "Louxor (3h), Le Caire (4-5h ou 40 min en avion), Assouan — toutes nos visites vers les sites pharaoniques peuvent être organisées au départ de votre hôtel d'Hurghada." }
+  ],
+  "practicalInfo": {
+    "bestPeriod": "Toute l'année — été idéal pour la mer (eau chaude, 28°C), hiver idéal pour les excursions culturelles (températures fraîches pour les visites).",
+    "daysRecommended": "Minimum 3 à 7 jours — combinez plage et excursions culturelles pour un séjour complet.",
+    "tips": [
+      "Réservez votre excursion à Louxor dès votre arrivée pour choisir la date qui vous convient",
+      "Les activités nautiques sont meilleures le matin, avant le vent de l'après-midi",
+      "Évitez les prestataires sur la plage : passez directement par nous pour les excursions"
+    ]
+  },
+  "faq": [
+    {
+      "question": "Peut-on faire une excursion à Louxor depuis Hurghada en une seule journée ?",
+      "answer": "Oui, c'est tout à fait possible. Louxor se trouve à environ 3 heures de route d'Hurghada. Nous organisons des journées complètes depuis votre hôtel, avec prise en charge dès 5h-6h du matin, visite de la Vallée des Rois, des temples de Karnak et de Louxor, déjeuner inclus, et retour à Hurghada en soirée."
+    },
+    {
+      "question": "Quels sont les meilleurs sites de plongée autour d'Hurghada ?",
+      "answer": "Hurghada est réputée pour ses récifs coralliens exceptionnels : Shaab Abu Ramada (le jardin de corail), l'île de Giftun, les épaves de l'Abu Nuhas. La mer Rouge offre une visibilité jusqu'à 30 mètres et des températures d'eau entre 22°C et 28°C toute l'année. Des sorties en bateau sont organisées quotidiennement."
+    },
+    {
+      "question": "Comment organiser une excursion depuis mon hôtel d'Hurghada ?",
+      "answer": "Contactez-nous directement par WhatsApp ou via notre formulaire de contact. Nous établissons le programme depuis votre hôtel : transport en véhicule climatisé, guide francophone, billets d'entrée et repas du midi inclus selon l'excursion. Devis gratuit et programme sur mesure selon votre planning."
+    },
+    {
+      "question": "Peut-on visiter Le Caire depuis Hurghada ?",
+      "answer": "Oui. Le Caire est accessible en voiture (4-5h) ou en avion depuis l'aéroport d'Hurghada (40 min). Nous proposons des excursions d'une journée ou des programmes de 2 jours au Caire depuis Hurghada, incluant les pyramides de Gizeh, le Sphinx, le musée égyptien et Khan el-Khalili."
+    },
+    {
+      "question": "Le safari dans le désert est-il adapté aux enfants ?",
+      "answer": "Oui, le safari dans le désert est une activité très appréciée des familles. La balade à dos de dromadaire et le coucher de soleil en jeep conviennent aux enfants dès 5-6 ans. La soirée orientale avec musique, danse et spectacle est accessible à tous les âges. Pour les enfants en bas âge, préférez la demi-journée plutôt que la journée complète."
+    },
+    {
+      "question": "Peut-on combiner Hurghada et Louxor sur un même séjour ?",
+      "answer": "C'est le voyage idéal pour découvrir l'Égypte en profondeur. Nous organisons des programmes combinés : quelques jours de plage à Hurghada, puis transfer en voiture privée vers Louxor pour 2-3 jours de visites pharaoniques avec votre guide, avant de repartir depuis l'aéroport de Louxor. Programme entièrement sur mesure."
+    }
+  ],
+  "relatedExcursions": ["excursions-hurghada", "transfert-aeroport"],
+  "gallery": [
+    "/images/destinations/mer-rouge/mer-rouge-corail-coloré-hurghada.webp",
+    "/images/destinations/mer-rouge/mer-rouge-poissons-recif.webp",
+    "/images/destinations/mer-rouge/snorkeling-mer-rouge-coraux.webp",
+    "/images/destinations/mer-rouge/mer-rouge-plongée-epave.webp",
+    "/images/destinations/mer-rouge/hurghada-plage-eau-cristal.webp",
+    "/images/destinations/mer-rouge/mer-rouge-anémone-poissons-clowns.webp",
+    "/images/destinations/mer-rouge/plongee-mer-rouge-hurghada.webp",
+    "/images/destinations/mer-rouge/mer-rouge-tortue-marine.webp",
+    "/images/destinations/mer-rouge/mer-rouge-plongeur-recif.webp",
+    "/images/destinations/mer-rouge/mer-rouge-poissons-tropicaux.webp",
+    "/images/destinations/mer-rouge/mer-rouge-coraux-bleus.webp",
+    "/images/destinations/mer-rouge/coucher-soleil-mer-rouge-egypte.webp",
+    "/images/destinations/mer-rouge/plongee-recif-corallien-hurghada.webp",
+    "/images/destinations/mer-rouge/bateau-excursion-mer-rouge.webp"
+  ]
+}

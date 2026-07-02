@@ -1,0 +1,132 @@
+{
+  "slug": "excursions-assouan",
+  "type": "excursion",
+  "category": "Assouan",
+  "legacyPath": "/visites",
+  "name": "Excursions et programmes à Assouan",
+  "seo": {
+    "title": "Excursions à Assouan avec guide francophone | Philae, Abou Simbel, 1 à 3 jours",
+    "description": "Programmes 1 à 3 jours à Assouan avec guide égyptologue francophone : Philae, obélisque inachevé, Haut Barrage, Abou Simbel, jardin botanique et village nubien."
+  },
+  "hero": {
+    "image": "/images/destinations/assouan/abu-simbel-facade-assouan.webp",
+    "tagline": "De Philae à Abou Simbel, au fil du Nil et de la Nubie"
+  },
+  "intro": "Visites à Assouan au départ de Louxor ou directement depuis votre hôtel à Assouan. Les programmes s'adaptent à votre rythme : une journée intense ou trois jours pour tout découvrir, de l'obélisque inachevé aux temples colossaux d'Abou Simbel. Votre guide francophone est à vos côtés tout au long du séjour.",
+  "difficulty": "Modéré — départ à 4h du matin pour Abou Simbel (programme 2 et 3 jours)",
+  "priceFrom": "Sur devis — programme personnalisé 1 à 3 jours",
+  "included": [
+    "Guide égyptologue francophone privé pour toutes les visites",
+    "Transport en véhicule climatisé avec chauffeur",
+    "Prise en charge à Louxor ou à votre hôtel d'Assouan",
+    "Billets d'entrée des sites selon le programme choisi"
+  ],
+  "excluded": [
+    "Hébergement à Assouan (si nuit sur place — nous pouvons recommander des hôtels)",
+    "Repas et boissons",
+    "Bateau pour le jardin botanique ou le village nubien (payant sur place, env. 50-100 EGP)",
+    "Pourboires"
+  ],
+  "programs": [
+    {
+      "title": "1 journée à Assouan",
+      "duration": "1 jour (départ tôt le matin depuis Louxor ou depuis Assouan)",
+      "items": [
+        "Visite du temple de l'île de Philae (accès en barque inclus)",
+        "L'obélisque inachevé dans les carrières de granit",
+        "Le Haut Barrage et le lac Nasser",
+        "Option : jardin botanique sur l'île Kitchener",
+        "Retour à Louxor ou à votre hôtel d'Assouan"
+      ]
+    },
+    {
+      "title": "Visite de 2 jours à Assouan",
+      "duration": "2 jours",
+      "days": [
+        {
+          "label": "1er jour — Route et sites",
+          "items": [
+            "Sur la route depuis Louxor : temples d'Edfou (Horus) et de Kom Ombo (Sobek)",
+            "Déjeuner dans un restaurant typique au bord du Nil",
+            "Après-midi : promenade en felouque vers le jardin botanique et le village nubien"
+          ]
+        },
+        {
+          "label": "2e jour — au choix",
+          "items": [
+            "Option A : Temple de Philae, obélisque inachevé et Haut Barrage",
+            "Option B : Départ à 4h du matin pour les temples d'Abou Simbel (280 km)",
+            "Retour à Louxor en soirée"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Visite de 3 jours à Assouan pour ne rien manquer",
+      "duration": "3 jours",
+      "days": [
+        {
+          "label": "1er jour — Arrivée et essentiels",
+          "items": [
+            "Temple de l'île de Philae (avec barque)",
+            "L'obélisque inachevé dans les carrières",
+            "Le Haut Barrage",
+            "Déjeuner au bord du Nil",
+            "Après-midi en felouque : jardin botanique (île Kitchener) et village nubien"
+          ]
+        },
+        {
+          "label": "2e jour — Abou Simbel",
+          "items": [
+            "Départ à 4h du matin pour les temples d'Abou Simbel (Ramsès II et Néfertari)",
+            "Retour à l'hôtel en fin de matinée",
+            "Après-midi libre ou découverte des grands souks d'Assouan"
+          ]
+        },
+        {
+          "label": "3e jour — Découvertes méconnues",
+          "items": [
+            "Au choix : le monastère de Saint-Siméon (rarement proposé par les agences)",
+            "ou le musée nubien (superbe, très bien organisé)",
+            "ou l'île Éléphantine avec ses ruines, nilomètre et village nubien",
+            "Retour à Louxor"
+          ]
+        }
+      ]
+    }
+  ],
+  "options": [
+    {
+      "name": "Son et lumière au temple de Philae",
+      "description": "Un spectacle son et lumière en français qui vous transporte à travers l'histoire de l'île et du temple de Philae — l'histoire d'Osiris et d'Isis, narrée dans une mise en scène féerique sur les eaux du Nil nocturne."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Peut-on faire Abou Simbel en une journée depuis Assouan ?",
+      "answer": "Oui, l'excursion à Abou Simbel depuis Assouan se fait en une journée mais nécessite un départ très tôt (vers 4h du matin). Les temples de Ramsès II sont à environ 280 km d'Assouan ; l'aller-retour en voiture prend environ 3h dans chaque sens. L'alternative est le vol depuis l'aéroport d'Assouan (40 min, supplément à prévoir)."
+    },
+    {
+      "question": "Que voir à Assouan en une seule journée ?",
+      "answer": "En une seule journée depuis Louxor ou sur place, vous pouvez voir l'essentiel : le temple de Philae sur son île (1h30-2h), l'obélisque inachevé dans les carrières (45 min) et le Haut Barrage (30 min). En option l'après-midi : promenade en felouque et jardin botanique ou village nubien."
+    },
+    {
+      "question": "Quel est le meilleur programme pour 2 jours à Assouan ?",
+      "answer": "En 2 jours : 1er jour — route via Edfou et Kom Ombo, arrivée à Assouan, promenade en felouque et jardin botanique. 2e jour — départ à 4h pour Abou Simbel (3h de route), retour à Assouan pour Philae, Haut Barrage et obélisque inachevé, puis retour à Louxor en soirée. Intense mais inoubliable."
+    },
+    {
+      "question": "Le son et lumière de Philae vaut-il la visite ?",
+      "answer": "Absolument. Le spectacle son et lumière du temple de Philae est l'un des plus beaux d'Égypte. La mise en scène nocturne sur l'île, avec les reflets sur le Nil et la narration de l'histoire d'Isis et Osiris, crée une atmosphère inoubliable. Disponible en français plusieurs soirs par semaine."
+    },
+    {
+      "question": "Comment se rendre à Assouan depuis Louxor pour les visites ?",
+      "answer": "Nous vous prenons en charge directement à votre hôtel de Louxor. La route jusqu'à Assouan (env. 3h en voiture privée) peut inclure des arrêts aux temples d'Edfou et de Kom Ombo, transformant le trajet en visite à part entière. Vous pouvez aussi arriver à Assouan en train ou en croisière sur le Nil."
+    }
+  ],
+  "relatedDestinations": ["assouan"],
+  "gallery": [
+    "/images/legacy/FB_IMG_1535552037377-fi20116578x540-a168c54f.jpg",
+    "/images/legacy/FB_IMG_1535552313759-fi20116582x540-639c1434.jpg",
+    "/images/legacy/FB_IMG_1535109808024-fi20116515x540-2c6490e9.jpg"
+  ]
+}

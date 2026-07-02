@@ -1,0 +1,81 @@
+{
+  "slug": "montgolfiere",
+  "type": "excursion",
+  "category": "Survol",
+  "legacyPath": "/montgolfiere",
+  "name": "Tour en montgolfière à Louxor",
+  "seo": {
+    "title": "Montgolfière à Louxor au lever du soleil | Survol Vallée des Rois",
+    "description": "Survolez Louxor en montgolfière au lever du soleil : Vallée des Rois, temple d'Hatchepsout et Nil vus du ciel. Prise en charge hôtel incluse. Vol ~45 min."
+  },
+  "hero": {
+    "image": "/images/destinations/louxor/montgolfiere-louxor-lever-soleil.webp",
+    "tagline": "Le plus grand musée à ciel ouvert, vu du ciel"
+  },
+  "intro": "La montgolfière en Égypte est un moyen extraordinaire de survoler le plus grand musée à ciel ouvert du monde. Un départ tôt le matin depuis votre hôtel vous amène au ballon qui survole Louxor au lever du soleil ; un petit-déjeuner léger et du thé sont inclus.",
+  "experience": "Notre représentant vous transfère sur la rive ouest du Nil à Louxor. Des boissons chaudes ou fraîches vous sont servies avant la traversée en ferry, puis le décollage. Détendez-vous pendant environ 45 minutes à 1 heure en profitant de la vue sur le Nil et ses deux rives verdoyantes, la Vallée des Rois, la nécropole des rois du Nouvel Empire, ainsi que le temple d'Hatchepsout. Le vol part tous les jours, mais une confirmation à l'avance est fortement recommandée. Après l'atterrissage, vous êtes transféré à votre hôtel ou à votre bateau de croisière.",
+  "difficulty": "Aucune restriction particulière (déconseillé aux femmes enceintes, minimum 6 ans)",
+  "priceFrom": "À partir de 65 $/pers.",
+  "included": [
+    "Prise en charge et retour à l'hôtel ou au bateau de croisière",
+    "Ferry aller-retour vers la rive ouest du Nil",
+    "Vol en montgolfière (environ 45 min – 1h)",
+    "Petit-déjeuner léger et boissons chaudes ou fraîches"
+  ],
+  "excluded": [
+    "Assurance annulation individuelle",
+    "Pourboires pour l'équipage du ballon"
+  ],
+  "details": {
+    "duration": "Vol d'environ 45 minutes à 1 heure",
+    "timing": "Au lever du soleil, le matin",
+    "included": ["Prise en charge et retour à l'hôtel (ou au bateau de croisière)", "Petit-déjeuner léger et boissons"],
+    "frequency": "Tous les jours (confirmation à l'avance recommandée)"
+  },
+  "programs": [
+    {
+      "title": "Déroulement du vol en montgolfière",
+      "items": [
+        "Prise en charge très tôt le matin à votre hôtel (vers 4h-5h selon la saison)",
+        "Transfert vers l'embarcadère et traversée en ferry vers la rive ouest",
+        "Accueil par l'équipe du ballon, boissons et petit-déjeuner léger",
+        "Gonflage du ballon et briefing sécurité (environ 20-30 min)",
+        "Décollage au lever du soleil — vol d'environ 45 min à 1h",
+        "Survol de la Vallée des Rois, du temple d'Hatchepsout, des Colosses de Memnon et du Nil",
+        "Atterrissage sur la rive ouest",
+        "Retour à votre hôtel ou à votre bateau de croisière"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "À quelle heure se déroule le vol en montgolfière ?",
+      "answer": "Le vol en montgolfière à Louxor a lieu au lever du soleil, généralement entre 5h30 et 6h du matin, pour profiter des meilleures conditions météorologiques et d'une vue exceptionnelle sur les sites antiques dorés par la première lumière. La prise en charge à l'hôtel s'effectue environ 1h avant le vol."
+    },
+    {
+      "question": "Combien de temps dure le vol en montgolfière ?",
+      "answer": "Le vol dure environ 45 minutes à 1 heure. En ajoutant le transport depuis l'hôtel, la traversée en ferry, le gonflage de la montgolfière et l'atterrissage, la demi-journée complète prend environ 3 à 4 heures."
+    },
+    {
+      "question": "La montgolfière survole-t-elle la Vallée des Rois ?",
+      "answer": "Oui, la montgolfière décolle de la rive ouest de Louxor et survole la Vallée des Rois, le temple d'Hatchepsout à Deir el-Bahari, les Colosses de Memnon et les champs de cannes à sucre le long du Nil, offrant une vue à couper le souffle sur tout le site thébain."
+    },
+    {
+      "question": "Y a-t-il des restrictions médicales pour le vol en montgolfière ?",
+      "answer": "Le vol est déconseillé aux femmes enceintes et aux personnes souffrant de problèmes cardiaques graves. Les enfants doivent avoir au moins 6 ans. En cas de vents forts ou de météo défavorable, le vol peut être reporté au lendemain pour des raisons de sécurité — votre place est garantie."
+    },
+    {
+      "question": "Peut-on combiner la montgolfière avec une visite guidée de Louxor ?",
+      "answer": "Absolument. La montgolfière se déroulant tôt le matin (4h-8h), vous avez toute la journée pour visiter la Vallée des Rois, les temples de Karnak et de Louxor avec votre guide égyptologue. C'est même l'enchaînement idéal : le survol donne une vision d'ensemble du site, et la visite guidée au sol en révèle tous les détails."
+    }
+  ],
+  "relatedDestinations": ["louxor"],
+  "gallery": [
+    "/images/hero/hero-montgolfiere-louxor-02.webp",
+    "/images/destinations/louxor/montgolfiere-louxor-lever-soleil.webp",
+    "/images/destinations/louxor/montgolfiere-louxor-temples.webp",
+    "/images/destinations/louxor/vallee-des-rois-panorama.webp",
+    "/images/destinations/louxor/nil-louxor-felouque.webp",
+    "/images/destinations/louxor/temple-louxor-nuit-illumine.webp"
+  ]
+}

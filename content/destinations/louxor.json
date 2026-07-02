@@ -1,0 +1,103 @@
+{
+  "slug": "louxor",
+  "type": "destination",
+  "legacyPath": "/louxor",
+  "name": "Louxor",
+  "seo": {
+    "title": "Visite guidée privée de Louxor avec guide francophone | Karnak, Vallée des Rois",
+    "description": "Visitez Louxor avec un guide francophone égyptologue : temples de Karnak et de Louxor, Vallée des Rois, Hatchepsout, Colosses de Memnon. Excursions privées sur mesure."
+  },
+  "hero": {
+    "image": "/images/destinations/louxor/temple-karnak-avenue-sphinx.webp",
+    "tagline": "Le plus grand musée à ciel ouvert du monde"
+  },
+  "intro": "Louxor (ou Louqsor) est la destination touristique de premier choix au sud de la Haute-Égypte, dans la vallée du Nil. Capitale dynastique et religieuse du Moyen et du Nouvel Empire, Louxor a beaucoup à offrir au voyageur : de nombreux temples, des tombes royales antiques, le désert et le fleuve à travers des paysages spectaculaires, ainsi qu'une vie animée et moderne. Même si la ville est relativement petite selon les normes égyptiennes, elle reste assez vaste : mieux vaut la diviser en plusieurs zones réparties sur les deux rives du Nil. Avec votre guide égyptologue francophone, chaque pierre raconte une histoire vieille de 3 000 ans — de la grande salle hypostyle de Karnak aux tombes peintes de la Vallée des Rois, en passant par le majestueux temple d'Hatchepsout creusé dans la falaise.",
+  "areas": [
+    {
+      "name": "Rive Est",
+      "description": "Le temple de Louxor, le temple de Karnak, le musée, la gare, les hôtels et les restaurants. La rive des vivants, animée jour et nuit, idéale pour flâner en soirée sur la Corniche du Nil."
+    },
+    {
+      "name": "Rive Ouest",
+      "description": "La Vallée des Rois, la Vallée des Reines et de nombreux autres sites majeurs, ainsi que quelques hôtels. La rive des morts, où pharaons et nobles se faisaient enterrer face au soleil couchant."
+    }
+  ],
+  "highlights": [
+    { "name": "Temple de Karnak", "description": "Le plus grand complexe religieux d'Égypte, dédié à la triade thébaine (Amon, Mout et Khonsou), avec sa célèbre salle hypostyle et ses obélisques. Un site qui se visite sur 2 à 3 heures minimum." },
+    { "name": "Temple de Louxor", "description": "Érigé au XIVe siècle av. J.-C. sous Amenhotep III et agrandi par Ramsès II, relié à Karnak par une allée de sphinx (dromos). Magnifique en soirée, illuminé jusqu'à minuit." },
+    { "name": "Vallée des Rois", "description": "La nécropole royale du Nouvel Empire, qui abrite les tombes richement décorées des pharaons, dont celle de Toutânkhamon. 64 tombes découvertes, dont une vingtaine accessibles au public." },
+    { "name": "Temple d'Hatchepsout (Deir el-Bahari)", "description": "Temple funéraire en terrasses creusé dans la roche, dédié à Amon, œuvre de l'une des rares femmes pharaons d'Égypte. L'un des monuments les mieux préservés de la rive ouest." },
+    { "name": "Colosses de Memnon", "description": "Deux statues monumentales de 18 mètres de haut, derniers vestiges du temple funéraire d'Amenhotep III. Point de départ traditionnel de la visite de la rive ouest." },
+    { "name": "Medinet Habou", "description": "Le temple funéraire de Ramsès III, l'un des mieux conservés de la rive ouest, avec des scènes de bataille peintes d'une finesse remarquable." },
+    { "name": "Vallée des Reines", "description": "Nécropole des épouses royales et des princes du Nouvel Empire. La tombe de Néfertari, épouse de Ramsès II, est considérée comme la plus belle tombe d'Égypte (accès sur billet spécial)." },
+    { "name": "Tombes des Nobles et Village des Artisans (Deir el-Médineh)", "description": "Les tombes des dignitaires et le village des ouvriers qui creusèrent les tombes royales — une fenêtre unique sur la vie quotidienne au temps des pharaons." },
+    { "name": "Ramesséum", "description": "Le temple funéraire de Ramsès II sur la rive ouest, imposant malgré ses ruines, avec son colosse géant brisé qui inspira le poème Ozymandias de Shelley." },
+    { "name": "Musée de Louxor et Musée de la Momification", "description": "Deux musées d'exception présentant statues, objets rares de la vallée thébaine et l'art de la momification. Le musée de Louxor est l'un des plus modernes d'Égypte." }
+  ],
+  "practicalInfo": {
+    "bestPeriod": "Octobre à avril — printemps et automne idéaux (20-28°C). Été très chaud (40°C+) mais visites possibles tôt le matin.",
+    "daysRecommended": "2 à 3 jours minimum — 3 jours pour ne rien manquer des deux rives et des musées.",
+    "tips": [
+      "Commencez les visites dès 6h30-7h du matin pour éviter la chaleur et les groupes",
+      "Apportez eau, chapeau et crème solaire — tous les sites sont en plein air",
+      "Privilégiez les jours de semaine pour la Vallée des Rois, moins fréquentée"
+    ]
+  },
+  "faq": [
+    {
+      "question": "Quel est le prix d'une visite guidée privée à Louxor ?",
+      "answer": "Le tarif d'une journée complète avec guide francophone privé et transport inclus démarre à partir de 150 € pour deux personnes. Le prix varie selon le nombre de participants, les sites choisis et les options (montgolfière, son et lumière, tombe de Toutânkhamon). Contactez-nous pour un devis personnalisé gratuit."
+    },
+    {
+      "question": "Combien de temps prévoir pour la Vallée des Rois ?",
+      "answer": "Comptez 2 à 3 heures pour visiter la Vallée des Rois. Le billet standard donne accès à 3 tombes (hors tombe de Toutânkhamon et grande tombe de Ramsès VI, qui nécessitent un supplément). Avec un guide égyptologue, chaque tombe prend environ 30 à 45 minutes pour une lecture complète des peintures et hiéroglyphes."
+    },
+    {
+      "question": "Peut-on visiter Louxor en hiver ?",
+      "answer": "L'hiver (novembre à février) est la meilleure période pour visiter Louxor. Les températures avoisinent 20-25°C en journée, idéales pour les visites en plein air. Les nuits peuvent être fraîches (10-15°C). Évitez l'été (juin-août) où les températures dépassent 40°C."
+    },
+    {
+      "question": "Comment se déplacer entre la rive est et la rive ouest de Louxor ?",
+      "answer": "La rive est et la rive ouest sont reliées par un ferry public (très économique, env. 5 EGP) ou des bateaux privés. Avec votre guide, le transfert en voiture climatisée inclut le passage par le pont ou le ferry. Comptez 10 à 15 minutes de trajet."
+    },
+    {
+      "question": "Faut-il un visa pour visiter l'Égypte depuis la France ?",
+      "answer": "Les ressortissants français peuvent obtenir un visa à l'arrivée à l'aéroport (visa on arrival, environ 25 USD) ou en ligne sur le portail officiel evisa.gov.eg avant le départ. Le visa est valable 30 jours, entrée simple ou multiple."
+    },
+    {
+      "question": "Le temple de Karnak et le temple de Louxor sont-ils ouverts en soirée ?",
+      "answer": "Le temple de Louxor est ouvert jusqu'à 22h et s'illumine magnifiquement à la nuit tombée — une expérience incontournable. Le temple de Karnak propose un spectacle son et lumière plusieurs soirs par semaine en français. Votre guide peut inclure ces options dans votre programme."
+    }
+  ],
+  "relatedExcursions": ["excursions-louxor", "montgolfiere", "croisiere-nil"],
+  "gallery": [
+    "/images/destinations/louxor/temple-karnak-colonnes-louxor.webp",
+    "/images/destinations/louxor/vallee-des-rois-panorama.webp",
+    "/images/destinations/louxor/temple-louxor-nuit-illumine.webp",
+    "/images/destinations/louxor/temple-karnak-avenue-sphinx.webp",
+    "/images/destinations/louxor/vallee-des-rois-peintures-murales.webp",
+    "/images/destinations/louxor/temple-louxor-facade-principale.webp",
+    "/images/destinations/louxor/temple-karnak-interieur-colonnes.webp",
+    "/images/destinations/louxor/vallee-des-rois-louxor.webp",
+    "/images/destinations/louxor/temple-louxor-egypte.webp",
+    "/images/destinations/louxor/temple-karnak-sculptures-hieroglyphes.webp",
+    "/images/destinations/louxor/vallee-des-rois-montagne.webp",
+    "/images/destinations/louxor/temple-karnak-lumiere-matinale.webp",
+    "/images/destinations/louxor/temple-hatchepsout-louxor.webp",
+    "/images/destinations/louxor/vallee-des-rois-entree-tombe.webp",
+    "/images/destinations/louxor/temple-louxor-colonnes-detail.webp",
+    "/images/destinations/louxor/temple-karnak-lac-sacre.webp",
+    "/images/destinations/louxor/vallee-des-rois-paysage-desert.webp",
+    "/images/destinations/louxor/temple-karnak-coucher-soleil.webp",
+    "/images/destinations/louxor/colosses-memnon-louxor.webp",
+    "/images/destinations/louxor/vallee-des-rois-sarcophage.webp",
+    "/images/destinations/louxor/temple-karnak-colonne-detail.webp",
+    "/images/destinations/louxor/temple-karnak-louxor-egypte.webp",
+    "/images/destinations/louxor/nil-louxor-felouque.webp",
+    "/images/destinations/louxor/montgolfiere-louxor-lever-soleil.webp",
+    "/images/destinations/louxor/temple-louxor-obelisque-crepuscule.webp",
+    "/images/destinations/louxor/vallee-des-rois-tombeau-louxor.webp",
+    "/images/destinations/louxor/temple-karnak-lumiere-doree.webp",
+    "/images/destinations/louxor/montgolfiere-louxor-temples.webp"
+  ]
+}

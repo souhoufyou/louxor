@@ -1,0 +1,191 @@
+{
+  "slug": "croisieres-en-egypte-sur-le-nil",
+  "type": "excursion",
+  "category": "Croisière",
+  "legacyPath": "/croisieres-en-egypte-sur-le-nil",
+  "name": "Croisières en Égypte sur le Nil",
+  "seo": {
+    "title": "Croisière sur le Nil avec guide francophone | Louxor – Assouan 5 ou 8 jours",
+    "description": "Croisières sur le Nil entre Louxor et Assouan avec guide égyptologue francophone : bateau classique (5 jours / 4 nuits) ou dahabiya traditionnelle (8 jours / 7 nuits)."
+  },
+  "hero": {
+    "image": "/images/destinations/nil/dahabeya-nil-voiles-blanches.webp",
+    "tagline": "De Louxor à Assouan, au rythme du fleuve"
+  },
+  "intro": "Découvrez l'Égypte ancienne au fil du Nil, de Louxor à Assouan, accompagné d'un guide égyptologue francophone. Deux formules sont proposées : la croisière classique en bateau de croisière ou la croisière intimiste à bord d'une dahabiya traditionnelle à voile. Dans les deux cas, chaque escale révèle un temple, un secret, une histoire racontée en français au bord du fleuve sacré.",
+  "difficulty": "Facile — idéal en famille et pour tous les âges",
+  "priceFrom": "Sur devis — formule classique (5j/4n) ou dahabiya (8j/7n)",
+  "included": [
+    "Guide égyptologue francophone Hisham pour toutes les visites à terre",
+    "Hébergement en cabine double à bord (pension complète selon programme)",
+    "Tous les repas à bord (sauf indication contraire)",
+    "Transferts aéroport / bateau et entre les sites",
+    "Billets d'entrée des temples et sites inscrits au programme"
+  ],
+  "excluded": [
+    "Vol international vers Louxor et/ou retour depuis Assouan",
+    "Boissons alcoolisées et sodas à bord",
+    "Pourboires pour l'équipage et le guide",
+    "Options facultatives : son et lumière, Abou Simbel, tombe de Toutânkhamon"
+  ],
+  "programs": [
+    {
+      "title": "Croisière classique — 5 jours / 4 nuits",
+      "duration": "5 jours / 4 nuits",
+      "days": [
+        {
+          "label": "Jour 1 — Louxor",
+          "items": [
+            "Accueil à l'aéroport de Louxor et transfert au bateau",
+            "Déjeuner à bord",
+            "Visite des temples de Karnak et de Louxor, reliés par le dromos et dédiés à Amon",
+            "Dîner et nuit à bord — option : son et lumière au temple de Karnak"
+          ]
+        },
+        {
+          "label": "Jour 2 — Louxor / Esna",
+          "items": [
+            "Nécropole thébaine (rive ouest) : Vallée des Rois et Vallée des Reines",
+            "Colosses de Memnon et temple d'Hatchepsout à Deir el-Bahari",
+            "Navigation vers Esna et passage de l'écluse",
+            "Soirée déguisée « Galabia Party », dîner et nuit à bord"
+          ]
+        },
+        {
+          "label": "Jour 3 — Edfou / Kom Ombo / Assouan",
+          "items": [
+            "Temple d'Edfou, dédié au dieu faucon Horus (l'un des mieux conservés d'Égypte), rejoint en calèche",
+            "Temple de Kom Ombo, dédié à Sobek le crocodile et Haroéris le faucon",
+            "Navigation vers Assouan, dîner et nuit à bord"
+          ]
+        },
+        {
+          "label": "Jour 4 — Assouan",
+          "items": [
+            "Temple d'Isis sur l'île de Philae (accès en barque)",
+            "Promenade en felouque autour de l'île Éléphantine et du village nubien",
+            "Haut Barrage et obélisque inachevé dans les carrières",
+            "Option : son et lumière au temple de Philae — nuit à bord"
+          ]
+        },
+        {
+          "label": "Jour 5 — Assouan / Départ",
+          "items": [
+            "Matinée libre à Assouan",
+            "Option : excursion en car ou en avion vers les temples d'Abou Simbel (supplément)",
+            "Déjeuner puis transfert à l'aéroport d'Assouan"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Croisière en dahabiya — 8 jours / 7 nuits",
+      "duration": "8 jours / 7 nuits",
+      "days": [
+        {
+          "label": "Jour 1 — Louxor",
+          "items": [
+            "Accueil à l'aéroport de Louxor et embarquement sur la dahabiya (rive ouest)",
+            "Après le déjeuner : temples de Karnak et de Louxor",
+            "Nuit à bord à Louxor — dîner inclus"
+          ]
+        },
+        {
+          "label": "Jour 2 — Rive Ouest de Louxor",
+          "items": [
+            "Vallée des Rois (3 tombes dont option tombe de Toutânkhamon)",
+            "Temple d'Hatchepsout à Deir el-Bahari et Colosses de Memnon",
+            "Nuit à bord — petit-déjeuner, déjeuner, dîner inclus"
+          ]
+        },
+        {
+          "label": "Jour 3 — Esna",
+          "items": [
+            "Traversée de l'écluse d'Esna et visite du temple d'Esna (dieu Khnoum)",
+            "Navigation paisible vers le sud",
+            "Nuit à bord — petit-déjeuner, déjeuner, dîner inclus"
+          ]
+        },
+        {
+          "label": "Jour 4 — Edfou",
+          "items": [
+            "Navigation vers Edfou et visite du grand temple d'Horus (un des mieux préservés d'Égypte)",
+            "Nuit à bord — petit-déjeuner, déjeuner, dîner inclus"
+          ]
+        },
+        {
+          "label": "Jour 5 — Gebel el-Silsila / Kom Ombo",
+          "items": [
+            "Visite de Gebel el-Silsila, carrières de grès pharaoniques taillées dans la falaise",
+            "Navigation vers Kom Ombo et visite du double temple (Sobek et Haroéris)",
+            "Nuit à bord — petit-déjeuner, déjeuner, dîner inclus"
+          ]
+        },
+        {
+          "label": "Jour 6 — Assouan",
+          "items": [
+            "Navigation matinale vers Assouan",
+            "Haut Barrage, obélisque inachevé et temple de Philae sur son île",
+            "Nuit à bord — petit-déjeuner, déjeuner, dîner inclus"
+          ]
+        },
+        {
+          "label": "Jour 7 — Assouan",
+          "items": [
+            "Journée libre à Assouan : souk, île Éléphantine, jardins botaniques en felouque",
+            "Option : temples d'Abou Simbel (non inclus, supplément vol ou transport)",
+            "Nuit à bord — petit-déjeuner, déjeuner, dîner inclus"
+          ]
+        },
+        {
+          "label": "Jour 8 — Débarquement",
+          "items": [
+            "Petit-déjeuner à bord",
+            "Débarquement à 8h et transfert à l'aéroport d'Assouan"
+          ]
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "Quelle est la durée de la croisière sur le Nil ?",
+      "answer": "Deux formules sont proposées : la croisière classique en bateau de croisière (5 jours / 4 nuits), et la croisière en dahabiya traditionnelle (8 jours / 7 nuits) pour une expérience plus intime et plus lente au fil du Nil."
+    },
+    {
+      "question": "De quelle ville part la croisière ?",
+      "answer": "La croisière part de Louxor et navigue vers le sud jusqu'à Assouan, avec des escales à Esna, Edfou et Kom Ombo. Le sens Louxor→Assouan est plus courant. La dahabiya remonte également le Nil depuis Louxor."
+    },
+    {
+      "question": "Un guide francophone est-il inclus pendant toute la croisière ?",
+      "answer": "Oui, Hisham, guide égyptologue francophone diplômé, vous accompagne tout au long du voyage pour commenter chaque site visité à terre. À bord, l'équipe du bateau prend soin de votre confort. Toutes les visites se font avec votre guide privé francophone."
+    },
+    {
+      "question": "Quelle est la différence entre la croisière classique et la dahabiya ?",
+      "answer": "La croisière classique (5 jours) se fait à bord d'un bateau de croisière avec cabines confortables, restaurant, piscine et animations. La dahabiya (8 jours) est un voilier traditionnel du Nil de 10 à 16 passagers maximum — plus lente, plus intime, idéale pour ceux qui veulent vraiment s'imprégner de l'atmosphère du fleuve et éviter les foules."
+    },
+    {
+      "question": "Peut-on visiter Abou Simbel pendant la croisière ?",
+      "answer": "Oui, une excursion facultative vers Abou Simbel est possible depuis Assouan (5e jour pour la croisière classique, 7e jour pour la dahabiya). Elle se fait en car ou en avion depuis Assouan (supplément). Nous la recommandons vivement — les temples colossaux de Ramsès II sont parmi les plus impressionnants d'Égypte."
+    },
+    {
+      "question": "La croisière convient-elle aux enfants et aux seniors ?",
+      "answer": "Absolument. La croisière sur le Nil est l'une des façons les plus confortables de découvrir l'Égypte, avec des nuits et des repas toujours à bord. Les enfants adorent le bateau et les temples aux décors de bande dessinée géante. Pour les seniors, le rythme peut être adapté avec des options de repos à bord."
+    }
+  ],
+  "relatedDestinations": ["louxor", "assouan"],
+  "gallery": [
+    "/images/destinations/nil/felouque-nil-coucher-soleil.webp",
+    "/images/destinations/nil/dahabeya-nil-voiles-blanches.webp",
+    "/images/destinations/nil/croisiere-nil-pont-coucher-soleil.webp",
+    "/images/destinations/nil/nil-lever-soleil-matin-calme.webp",
+    "/images/destinations/nil/nil-reflets-or-crepuscule.webp",
+    "/images/destinations/nil/nil-bateau-temples-bord.webp",
+    "/images/destinations/nil/croisiere-nil-egypte-temples.webp",
+    "/images/destinations/nil/nil-palmiers-rive-egypte.webp",
+    "/images/destinations/nil/bateau-croisiere-nil-egypte.webp",
+    "/images/destinations/nil/dahabeya-nil-egypte.webp",
+    "/images/destinations/nil/nil-felouques-coucher-soleil.webp",
+    "/images/destinations/nil/temples-vue-nil-croisiere.webp"
+  ]
+}

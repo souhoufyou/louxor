@@ -1,0 +1,14 @@
+# *
+User-agent: *
+Allow: /
+
+# *
+User-agent: *
+Disallow: /api/
+Disallow: /_next/
+
+# Host
+Host: https://www.guidefrancophonelouxor.com
+
+# Sitemaps
+Sitemap: https://www.guidefrancophonelouxor.com/sitemap.xml

@@ -1,0 +1,38 @@
+{
+  "name": "Guide Francophone Louxor",
+  "tagline": "Découvrez l'Égypte avec un guide francophone égyptologue",
+  "description": "Voyages et excursions sur mesure en Égypte avec Hisham, guide francophone égyptologue diplômé basé à Louxor : Louxor, Le Caire, Assouan, Hurghada, croisières sur le Nil et montgolfière.",
+  "url": "https://www.guidefrancophonelouxor.com",
+  "locale": "fr_FR",
+  "guide": {
+    "name": "Hisham",
+    "role": "Guide égyptologue francophone",
+    "bio": "Je m'appelle Hisham et je suis guide égyptologue à Louxor. Diplômé de l'Institut d'Études Supérieures du Sinaï, licencié en sciences de l'éducation et en égyptologie, je parle bien sûr l'arabe, mais aussi parfaitement le français et l'anglais. Je travaille dans le tourisme depuis de nombreuses années et, au fil de ma pratique du métier de guide en Égypte, j'ai acquis une expérience précieuse à travers tout le pays, tissant un vaste réseau de personnes sérieuses et compétentes avec lesquelles je collabore afin d'offrir un service optimal à ma clientèle.",
+    "approach": "Parce que j'aime mon pays, mon métier et le contact avec les gens, je propose à mes clients des découvertes passionnantes à travers toute l'Égypte : villes et capitale, sites archéologiques, souks et marchés, villages et palmeraies, oasis et déserts, croisières sur le Nil et le lac Nasser, séjours balnéaires à la mer Rouge. Le service est entièrement personnalisé et prend en compte tous vos besoins durant votre séjour (transports et transferts, repas, visites de sites, promenades, et bien d'autres choses encore selon votre demande). Durant tout votre séjour, un guide égyptologue vous accompagnera partout afin que vous profitiez au maximum de toutes les facettes merveilleuses de la terre de Râ."
+  },
+  "contact": {
+    "email": "guidefrancophonelouxor@gmail.com",
+    "phone": "+20 100 208 6724",
+    "phoneRaw": "+201002086724",
+    "whatsapp": "+201002086724",
+    "address": "23 TV Street, Louxor, Égypte"
+  },
+  "social": {
+    "facebookPageName": "Voyage l'Égypte entre nous",
+    "facebookUrl": null
+  },
+  "languages": ["Français", "Arabe", "Anglais"],
+  "pricingNote": "Toutes les prestations sont proposées sur devis et sur mesure, en fonction de votre programme, du nombre de participants, des catégories d'hôtels et de vos points de départ. Contactez-nous pour un devis personnalisé.",
+  "nav": [
+    { "label": "Accueil", "path": "/accueil" },
+    { "label": "Excursions", "path": "/visites" },
+    { "label": "Louxor", "path": "/louxor" },
+    { "label": "Le Caire", "path": "/caire" },
+    { "label": "Assouan", "path": "/assouan" },
+    { "label": "Hurghada", "path": "/hurghada" },
+    { "label": "Croisières sur le Nil", "path": "/croisieres-en-egypte-sur-le-nil" },
+    { "label": "Montgolfière", "path": "/montgolfiere" },
+    { "label": "Transferts", "path": "/service-de-transfert-aeroport" },
+    { "label": "Livre d'or", "path": "/livre-dor" }
+  ]
+}

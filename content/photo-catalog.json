@@ -1,0 +1,158 @@
+{
+  "hero": [
+    {
+      "name": "hero-montgolfiere-louxor-02",
+      "alt": "Montgolfières dorées au-dessus de Louxor à l'aube"
+    }
+  ],
+  "louxor": [
+    {
+      "name": "temple-karnak-colonnes-louxor",
+      "alt": "Colonnes monumentales du temple de Karnak, Louxor, Égypte"
+    },
+    {
+      "name": "temple-karnak-louxor-egypte",
+      "alt": "Grande salle hypostyle du temple de Karnak, Louxor"
+    },
+    {
+      "name": "temple-karnak-lumiere-doree",
+      "alt": "Temple de Karnak baigné de lumière dorée au coucher du soleil"
+    },
+    {
+      "name": "temple-louxor-egypte",
+      "alt": "Temple de Louxor illuminé, Égypte"
+    },
+    {
+      "name": "vallee-des-rois-louxor",
+      "alt": "Vallée des Rois, nécropole royale de Louxor, Égypte"
+    },
+    {
+      "name": "vallee-des-rois-tombeau-louxor",
+      "alt": "Entrée d'une tombe dans la Vallée des Rois, Louxor"
+    },
+    {
+      "name": "vallee-des-rois-desert-louxor",
+      "alt": "Paysage désertique de la Vallée des Rois, Louxor, Égypte"
+    },
+    {
+      "name": "temple-hatchepsout-louxor",
+      "alt": "Temple d'Hatchepsout à Deir el-Bahari, Louxor, Égypte"
+    },
+    {
+      "name": "colosses-memnon-louxor",
+      "alt": "Colosses de Memnon devant les montagnes de la rive ouest de Louxor"
+    },
+    {
+      "name": "nil-louxor-felouque",
+      "alt": "Felouques traditionnelles sur le Nil à Louxor au coucher du soleil"
+    },
+    {
+      "name": "montgolfiere-louxor-lever-soleil",
+      "alt": "Montgolfières au lever du soleil au-dessus de Louxor, Égypte"
+    },
+    {
+      "name": "montgolfiere-louxor-temples",
+      "alt": "Montgolfière survolant les temples de Louxor à l'aube"
+    }
+  ],
+  "caire": [
+    {
+      "name": "pyramides-gizeh-caire-egypte",
+      "alt": "Pyramides de Gizeh vues en grand angle, Le Caire, Égypte"
+    },
+    {
+      "name": "pyramides-gizeh-desert-caire",
+      "alt": "Pyramides de Gizeh dans le désert, Le Caire"
+    },
+    {
+      "name": "pyramides-gizeh-vue-panoramique",
+      "alt": "Vue panoramique des trois pyramides de Gizeh, Le Caire"
+    },
+    {
+      "name": "pyramides-gizeh-coucher-soleil",
+      "alt": "Pyramides de Gizeh au coucher du soleil, ciel orangé, Le Caire"
+    },
+    {
+      "name": "pyramides-sphinx-coucher-soleil",
+      "alt": "Sphinx et pyramides de Gizeh au coucher du soleil, Égypte"
+    },
+    {
+      "name": "sphinx-gizeh-caire-egypte",
+      "alt": "Grand Sphinx de Gizeh devant les pyramides, Le Caire, Égypte"
+    }
+  ],
+  "assouan": [
+    {
+      "name": "abu-simbel-temple-assouan",
+      "alt": "Temple d'Abou Simbel avec ses colosses, Assouan, Nubie"
+    },
+    {
+      "name": "abu-simbel-facade-assouan",
+      "alt": "Façade du grand temple d'Abou Simbel, Assouan, Égypte"
+    },
+    {
+      "name": "abu-simbel-ramses-assouan",
+      "alt": "Statues de Ramsès II au temple d'Abou Simbel, Assouan"
+    },
+    {
+      "name": "temple-philae-nil-assouan",
+      "alt": "Temple de Philae sur son île dans le Nil, Assouan, Égypte"
+    },
+    {
+      "name": "nil-assouan-felouque-nubie",
+      "alt": "Felouques traditionnelles sur le Nil à Assouan, Nubie"
+    }
+  ],
+  "mer-rouge": [
+    {
+      "name": "snorkeling-mer-rouge-coraux",
+      "alt": "Snorkeling en Mer Rouge — coraux colorés et poissons tropicaux"
+    },
+    {
+      "name": "plongee-mer-rouge-hurghada",
+      "alt": "Plongée sous-marine en Mer Rouge, Hurghada, Égypte"
+    },
+    {
+      "name": "mer-rouge-poissons-tropicaux",
+      "alt": "Poissons tropicaux dans les eaux cristallines de la Mer Rouge"
+    },
+    {
+      "name": "plongee-recif-corallien-hurghada",
+      "alt": "Plongée sur un récif corallien en Mer Rouge, Hurghada"
+    },
+    {
+      "name": "bateau-excursion-mer-rouge",
+      "alt": "Bateau d'excursion voguant sur la Mer Rouge, Hurghada"
+    },
+    {
+      "name": "coucher-soleil-mer-rouge-egypte",
+      "alt": "Coucher de soleil doré sur la Mer Rouge, Égypte"
+    }
+  ],
+  "nil": [
+    {
+      "name": "felouque-nil-coucher-soleil",
+      "alt": "Felouque à voiles blanches sur le Nil au coucher du soleil, Égypte"
+    },
+    {
+      "name": "croisiere-nil-egypte-temples",
+      "alt": "Croisière sur le Nil entre les temples, Égypte"
+    },
+    {
+      "name": "bateau-croisiere-nil-egypte",
+      "alt": "Bateau de croisière traditionnel sur le Nil, Égypte"
+    },
+    {
+      "name": "dahabeya-nil-egypte",
+      "alt": "Dahabeya traditionnel voguant sur le Nil, Égypte"
+    },
+    {
+      "name": "nil-felouques-coucher-soleil",
+      "alt": "Felouques sur le Nil au coucher du soleil, Égypte"
+    },
+    {
+      "name": "temples-vue-nil-croisiere",
+      "alt": "Temples égyptiens vus depuis le Nil en croisière"
+    }
+  ]
+}

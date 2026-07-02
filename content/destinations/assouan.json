@@ -1,0 +1,83 @@
+{
+  "slug": "assouan",
+  "type": "destination",
+  "legacyPath": "/assouan",
+  "name": "Assouan",
+  "seo": {
+    "title": "Visite guidée privée d'Assouan avec guide francophone | Philae, Abou Simbel, Nubie",
+    "description": "Visitez Assouan avec un guide francophone : temple de Philae, Haut Barrage, obélisque inachevé, Abou Simbel, île Éléphantine et villages nubiens. Sur mesure."
+  },
+  "hero": {
+    "image": "/images/destinations/assouan/abu-simbel-facade-assouan.webp",
+    "tagline": "La paisible porte de la Nubie sur le Nil"
+  },
+  "intro": "Assouan est une ville du sud de l'Égypte, à quelque 680 kilomètres au sud du Caire, juste en aval du Haut Barrage et du lac Nasser. Plus paisible et plus petite que Le Caire et Louxor, c'est la plus méridionale des trois grandes villes touristiques du Nil. Elle abrite une importante population nubienne, en grande partie réinstallée après l'inondation de sa terre d'origine par le lac Nasser. Assouan possède de nombreuses carrières de granit qui ont fourni la plupart des obélisques de l'Égypte ancienne. C'est la porte de l'Égypte antique vers l'Afrique, et le point de départ idéal pour visiter les temples colossaux d'Abou Simbel. Avec votre guide francophone, vous découvrez une Égypte plus intime, bercée par le Nil et la culture nubienne.",
+  "highlights": [
+    { "name": "Temple de Philae (île d'Agilkia)", "description": "Dédié à Isis, dernier temple antique bâti dans le style classique égyptien, déplacé pierre par pierre par l'UNESCO pour le sauver des eaux du lac Nasser. Spectacle son et lumière en français plusieurs soirs par semaine." },
+    { "name": "Abou Simbel", "description": "Les temples colossaux de Ramsès II, chefs-d'œuvre absolus de l'Égypte ancienne. La plupart des voyageurs utilisent Assouan comme base pour les visiter — départ à 4h du matin pour arriver au lever du soleil." },
+    { "name": "Haut Barrage", "description": "Ouvrage majeur construit avec l'aide soviétique dans les années 1960, il a façonné l'Égypte moderne, donné naissance au lac Nasser et nécessité le sauvetage de 22 temples antiques." },
+    { "name": "Obélisque inachevé", "description": "Le plus grand obélisque antique connu, taillé directement dans le substrat rocheux des carrières de granit d'Assouan. Une fissure l'a condamné à rester là où il fut taillé — révélant les techniques de construction des pharaons." },
+    { "name": "Temple de Kalabsha", "description": "Déplacé par l'UNESCO comme Philae, avec le kiosque de Qertassi et le temple de Beit el-Wali de Ramsès II. Accessible en bateau sur le lac Nasser." },
+    { "name": "Musée nubien", "description": "Très bien organisé, il présente les trésors de la civilisation nubienne sauvés avant l'inondation provoquée par le Haut Barrage, ainsi que l'histoire millénaire de la Nubie." },
+    { "name": "Île Éléphantine", "description": "Accessible en felouque, l'île abrite des villages nubiens colorés, un nilomètre antique, les ruines des temples de Satet et Khnoum, et le petit musée d'Assouan." },
+    { "name": "Jardins botaniques (île Kitchener)", "description": "Île entièrement transformée en jardin botanique au début du XXe siècle, riche d'oiseaux et de centaines d'espèces de plantes et de palmiers — une parenthèse de verdure accessible en felouque." },
+    { "name": "Village nubien", "description": "Réputé pour ses bijoux de perles et son artisanat coloré, au nord du vieux barrage d'Assouan. Une immersion dans la culture nubienne, hospitalière et chaleureuse." },
+    { "name": "Jardins Ferial", "description": "Parc aussi reposant que beau, à l'extrémité sud de la Corniche d'Assouan, avec vue sur les rochers granitiques du Nil et l'île Éléphantine." }
+  ],
+  "practicalInfo": {
+    "bestPeriod": "Novembre à mars — températures idéales entre 20 et 30°C en journée. Assouan est l'une des villes les plus chaudes d'Égypte en été (45°C+).",
+    "daysRecommended": "2 à 3 jours pour inclure Philae, le Haut Barrage et Abou Simbel — au moins 2 nuits sur place recommandées.",
+    "tips": [
+      "Pour Abou Simbel, le départ s'effectue à 4h du matin depuis Assouan — prévoyez-le en début de séjour",
+      "La balade en felouque au coucher du soleil sur le Nil est un moment incontournable",
+      "Réservez le son et lumière de Philae la veille pour vous assurer une place"
+    ]
+  },
+  "faq": [
+    {
+      "question": "Abou Simbel vaut-il vraiment le déplacement depuis Assouan ?",
+      "answer": "Absolument. Les temples d'Abou Simbel, construits par Ramsès II, sont parmi les monuments les plus impressionnants d'Égypte. Le départ très tôt le matin depuis Assouan (vers 4h) permet d'arriver au lever du jour, dans une lumière magique. C'est l'une des expériences les plus mémorables d'un voyage en Égypte — à ne manquer sous aucun prétexte."
+    },
+    {
+      "question": "Combien de temps prévoir pour le temple de Philae ?",
+      "answer": "Prévoyez 1h30 à 2 heures pour le temple de Philae. L'accès se fait en barque depuis l'embarcadère (15 minutes aller-retour), et la visite du temple dédié à la déesse Isis est particulièrement riche en bas-reliefs et inscriptions. En soirée, le spectacle son et lumière se tient en français plusieurs fois par semaine."
+    },
+    {
+      "question": "Peut-on visiter un village nubien depuis Assouan ?",
+      "answer": "Oui, et c'est vivement recommandé. Les villages nubiens sur l'île Éléphantine ou au nord d'Assouan offrent une immersion culturelle unique : maisons colorées peintes de motifs traditionnels, habitants chaleureux, artisanat de perles et tradition orale millénaire. La visite se fait en felouque sur le Nil — comptez 1h30 à 2 heures."
+    },
+    {
+      "question": "Comment se rendre à Assouan depuis Louxor ?",
+      "answer": "Assouan se trouve à environ 215 km au sud de Louxor. Trois options : voiture privée avec chauffeur (3h, avec arrêts possibles à Edfou et Kom Ombo), train (2h30, plusieurs départs par jour), ou croisière sur le Nil (3 à 5 jours selon la formule). Nous organisons le trajet et les visites selon vos préférences et votre budget."
+    },
+    {
+      "question": "L'obélisque inachevé d'Assouan vaut-il la visite ?",
+      "answer": "Oui, c'est un site fascinant souvent sous-estimé. L'obélisque gît toujours dans les carrières de granit rose d'Assouan ; avec 42 mètres de long et 1 200 tonnes, ce serait le plus grand jamais taillé. Une fissure dans le granite l'a empêché d'être extrait et érigé — révélant de façon unique les techniques de construction de l'Antiquité."
+    },
+    {
+      "question": "Peut-on faire la croisière sur le Nil depuis Assouan ?",
+      "answer": "La croisière classique part de Louxor et descend le Nil jusqu'à Assouan (5 jours / 4 nuits). Nous proposons aussi la formule inverse ou une croisière en dahabiya (voilier traditionnel) de 8 jours. Assouan est le point de départ ou d'arrivée idéal pour relier les grands sites de la Haute-Égypte en douceur."
+    }
+  ],
+  "relatedExcursions": ["excursions-assouan", "croisiere-nil"],
+  "gallery": [
+    "/images/destinations/assouan/abu-simbel-temple-assouan.webp",
+    "/images/destinations/assouan/abu-simbel-lever-soleil.webp",
+    "/images/destinations/assouan/nil-assouan-premier-cataracte.webp",
+    "/images/destinations/assouan/abu-simbel-vue-ensemble.webp",
+    "/images/destinations/assouan/abu-simbel-facade-assouan.webp",
+    "/images/destinations/assouan/nil-assouan-village-nubien.webp",
+    "/images/destinations/assouan/abu-simbel-colosses-interieur.webp",
+    "/images/destinations/assouan/temple-philae-nil-assouan.webp",
+    "/images/destinations/assouan/abu-simbel-peintures-pharaon.webp",
+    "/images/destinations/assouan/assouan-bateau-nil-panorama.webp",
+    "/images/destinations/assouan/abu-simbel-ramses-assouan.webp",
+    "/images/destinations/assouan/abu-simbel-entree-sanctuaire.webp",
+    "/images/destinations/assouan/nil-assouan-ile-elephantine.webp",
+    "/images/destinations/assouan/abu-simbel-temple-nefertari.webp",
+    "/images/destinations/assouan/abu-simbel-sunset-ciel-rouge.webp",
+    "/images/destinations/assouan/nil-assouan-felouque-nubie.webp",
+    "/images/destinations/assouan/assouan-desert-dunes-nil.webp",
+    "/images/destinations/assouan/abu-simbel-nuit-étoiles.webp"
+  ]
+}
