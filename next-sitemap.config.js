@@ -5,14 +5,11 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
   siteUrl: process.env.SITE_URL || 'https://www.guidefrancophonelouxor.com',
-  generateRobotsTxt: true,
+  // robots.txt géré nativement par app/robots.ts (pas de directive Host obsolète,
+  // pas de blocage de /_next/ nécessaire au rendu Google)
+  generateRobotsTxt: false,
   sitemapSize: 5000,
   outDir: 'public',
-  robotsTxtOptions: {
-    policies: [
-      { userAgent: '*', allow: '/', disallow: ['/api/', '/_next/'] },
-    ],
-  },
   transform: async (_config, path) => {
     const PRIORITIES = {
       '/': 1.0,
