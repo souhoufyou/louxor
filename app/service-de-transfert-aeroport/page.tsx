@@ -74,9 +74,9 @@ export default async function TransfertPage() {
             className="object-cover"
           />
           <div className="overlay-nil absolute inset-0" />
-          <div className="absolute inset-0 flex flex-col justify-end container-luxury pb-16">
+          <div className="relative z-10 mt-auto container-luxury pt-6 pb-16 flex flex-col items-start">
             <span className="badge badge-white mb-4">{exc.category}</span>
-            <h1 id="page-title" className="text-display-xl text-white text-balance">
+            <h1 id="page-title" className="text-display-lg text-white text-balance">
               {exc.name}
             </h1>
             {exc.hero.tagline && (

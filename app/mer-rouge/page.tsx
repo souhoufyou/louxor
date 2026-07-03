@@ -49,7 +49,7 @@ export default function MerRougePage() {
 
       <main id="main-content">
         {/* Hero */}
-        <section aria-labelledby="page-title" className="relative overflow-hidden min-h-[320px]" style={{ aspectRatio: '21/9' }}>
+        <section aria-labelledby="page-title" className="relative flex flex-col overflow-hidden min-h-[440px] md:min-h-[520px]">
           <Image
             src="/images/destinations/mer-rouge/coucher-soleil-mer-rouge-egypte.webp"
             alt="Mer Rouge, Égypte — excursions vers Louxor et Le Caire avec guide francophone"
@@ -57,16 +57,16 @@ export default function MerRougePage() {
           />
           <div className="overlay-nil absolute inset-0" />
           <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-transparent to-transparent pointer-events-none" />
-          <nav aria-label="Fil d'Ariane" className="absolute top-0 left-0 right-0 z-10 pt-20">
+          <nav aria-label="Fil d'Ariane" className="relative z-10 pt-20">
             <ol className="flex gap-2 text-caption container-luxury py-3 list-none flex-wrap">
               <li><Link href="/" className="text-white/75 hover:text-white transition-colors drop-shadow">Accueil</Link></li>
               <li aria-hidden="true" className="text-white/40">›</li>
               <li aria-current="page" className="text-gold drop-shadow">Mer Rouge</li>
             </ol>
           </nav>
-          <div className="absolute inset-0 flex flex-col justify-end container-luxury pb-12">
+          <div className="relative z-10 mt-auto container-luxury pt-6 pb-12 flex flex-col items-start">
             <span className="badge badge-white mb-3 self-start">Hurghada · Makadi · Safaga · Soma Bay · Marsa Alam</span>
-            <h1 id="page-title" className="text-display-xl text-white text-balance">
+            <h1 id="page-title" className="text-display-lg text-white text-balance">
               Excursions depuis la Mer Rouge avec guide francophone
             </h1>
             <p className="text-gold mt-3 text-xl max-w-2xl">

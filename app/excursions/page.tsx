@@ -67,7 +67,7 @@ export default async function ExcursionsPage() {
                 <li aria-current="page" className="text-gold">Excursions</li>
               </ol>
             </nav>
-            <h1 id="page-title" className="text-display-xl text-white text-balance">
+            <h1 id="page-title" className="text-display-lg text-white text-balance">
               Toutes nos excursions en Égypte
             </h1>
             <p className="text-gold-muted mt-4 text-xl max-w-2xl">

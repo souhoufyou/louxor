@@ -68,7 +68,7 @@ export default function TempleLouxorPage() {
       />
 
       <main id="main-content">
-        <section aria-labelledby="page-title" className="relative overflow-hidden min-h-[320px]" style={{ aspectRatio: '21/9' }}>
+        <section aria-labelledby="page-title" className="relative flex flex-col overflow-hidden min-h-[440px] md:min-h-[520px]">
           <Image
             src="/images/destinations/louxor/temple-louxor-facade-principale.webp"
             alt="Temple de Louxor illuminé au bord du Nil — visite guidée avec Hisham"
@@ -76,7 +76,7 @@ export default function TempleLouxorPage() {
           />
           <div className="overlay-nil absolute inset-0" />
           <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-transparent to-transparent pointer-events-none" />
-          <nav aria-label="Fil d'Ariane" className="absolute top-0 left-0 right-0 z-10 pt-20">
+          <nav aria-label="Fil d'Ariane" className="relative z-10 pt-20">
             <ol className="flex gap-2 text-caption container-luxury py-3 list-none flex-wrap">
               <li><Link href="/" className="text-white/75 hover:text-white transition-colors drop-shadow">Accueil</Link></li>
               <li aria-hidden="true" className="text-white/40">›</li>
@@ -85,9 +85,9 @@ export default function TempleLouxorPage() {
               <li aria-current="page" className="text-gold drop-shadow">Temple de Louxor</li>
             </ol>
           </nav>
-          <div className="absolute inset-0 flex flex-col justify-end container-luxury pb-12">
+          <div className="relative z-10 mt-auto container-luxury pt-6 pb-12 flex flex-col items-start">
             <span className="badge badge-white mb-3 self-start">Louxor · Rive Est · Centre-ville</span>
-            <h1 id="page-title" className="text-display-xl text-white text-balance">Temple de Louxor</h1>
+            <h1 id="page-title" className="text-display-lg text-white text-balance">Temple de Louxor</h1>
             <p className="text-gold mt-3 text-xl max-w-2xl">Le sanctuaire d'Amon au cœur de la ville, magnifique de jour comme de nuit</p>
           </div>
         </section>

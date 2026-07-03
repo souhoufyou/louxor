@@ -67,7 +67,7 @@ export function DestinationTemplate({
 
       <main id="main-content">
         {/* ── 1. Hero ───────────────────────────────────────────── */}
-        <section aria-labelledby="page-title" className="relative aspect-hero overflow-hidden min-h-[320px]">
+        <section aria-labelledby="page-title" className="relative flex flex-col overflow-hidden min-h-[440px] md:min-h-[520px]">
           <div className="absolute inset-0 animate-hero-zoom">
             <Image
               src={dest.hero.image}
@@ -80,7 +80,7 @@ export function DestinationTemplate({
           </div>
           <div className="overlay-nil absolute inset-0" />
           <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-transparent to-transparent pointer-events-none" />
-          <nav aria-label="Fil d'Ariane" className="absolute top-0 left-0 right-0 z-10 pt-20">
+          <nav aria-label="Fil d'Ariane" className="relative z-10 pt-20">
             <ol className="flex gap-2 text-caption container-luxury py-3 list-none flex-wrap">
               <li>
                 <Link href="/" className="text-white/75 hover:text-white transition-colors drop-shadow">
@@ -99,9 +99,9 @@ export function DestinationTemplate({
               </li>
             </ol>
           </nav>
-          <div className="absolute inset-0 flex flex-col justify-end container-luxury pb-16">
+          <div className="relative z-10 mt-auto container-luxury pt-6 pb-16 flex flex-col items-start">
             <span className="badge badge-white mb-4 self-start">Destination</span>
-            <h1 id="page-title" className="text-display-xl text-white text-balance">
+            <h1 id="page-title" className="text-display-lg text-white text-balance">
               Visite guidée privée de {dest.name}
               <br className="hidden sm:block" /> avec guide francophone
             </h1>
