@@ -19,20 +19,22 @@
   },
   "social": {
     "facebookPageName": "Voyage l'Égypte entre nous",
-    "facebookUrl": null
+    "facebookUrl": "https://www.facebook.com/share/1Bk4SFzjte/",
+    "instagramUrl": "https://www.instagram.com/hisham_guide_francophone_louxo"
   },
   "languages": ["Français", "Arabe", "Anglais"],
   "pricingNote": "Toutes les prestations sont proposées sur devis et sur mesure, en fonction de votre programme, du nombre de participants, des catégories d'hôtels et de vos points de départ. Contactez-nous pour un devis personnalisé.",
   "nav": [
-    { "label": "Accueil", "path": "/accueil" },
-    { "label": "Excursions", "path": "/visites" },
+    { "label": "Accueil", "path": "/" },
+    { "label": "Excursions", "path": "/excursions" },
     { "label": "Louxor", "path": "/louxor" },
+    { "label": "Mer Rouge", "path": "/mer-rouge" },
     { "label": "Le Caire", "path": "/caire" },
     { "label": "Assouan", "path": "/assouan" },
     { "label": "Hurghada", "path": "/hurghada" },
     { "label": "Croisières sur le Nil", "path": "/croisieres-en-egypte-sur-le-nil" },
     { "label": "Montgolfière", "path": "/montgolfiere" },
     { "label": "Transferts", "path": "/service-de-transfert-aeroport" },
-    { "label": "Livre d'or", "path": "/livre-dor" }
+    { "label": "Avis clients", "path": "/avis" }
   ]
 }

@@ -10,8 +10,7 @@ module.exports = {
   outDir: 'public',
   robotsTxtOptions: {
     policies: [
-      { userAgent: '*', allow: '/' },
-      { userAgent: '*', disallow: ['/api/', '/_next/'] },
+      { userAgent: '*', allow: '/', disallow: ['/api/', '/_next/'] },
     ],
   },
   transform: async (_config, path) => {
@@ -21,6 +20,7 @@ module.exports = {
       '/caire': 0.9,
       '/assouan': 0.9,
       '/hurghada': 0.9,
+      '/mer-rouge': 0.9,
       '/croisieres-en-egypte-sur-le-nil': 0.9,
       '/montgolfiere': 0.85,
       '/service-de-transfert-aeroport': 0.8,
@@ -30,6 +30,14 @@ module.exports = {
       '/a-propos': 0.7,
       '/blog': 0.75,
     };
+
+    // Pages SEO prioritaires — fort volume de recherche
+    if (path.startsWith('/excursions/depuis-')) {
+      return { loc: path, changefreq: 'monthly', priority: 0.9, lastmod: new Date().toISOString() };
+    }
+    if (path.startsWith('/louxor/') || path.startsWith('/mer-rouge/')) {
+      return { loc: path, changefreq: 'monthly', priority: 0.85, lastmod: new Date().toISOString() };
+    }
 
     const CHANGEFREQ = {
       '/': 'weekly',

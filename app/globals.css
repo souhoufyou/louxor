@@ -116,6 +116,8 @@
   --color-ink:          #0F1A24;
   --color-ink-soft:     #1A1714;
   --color-warm-gray:    #6B5E4E;
+  --color-warm-gray-light: #9B8E82;
+  --color-text-muted:   #6B5E4E;
 
   --color-background:   var(--bg);
   --color-foreground:   var(--text);
