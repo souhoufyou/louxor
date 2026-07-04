@@ -43,6 +43,19 @@ export function schemaTravelAgency() {
     description:
       'Voyages et excursions sur mesure en Égypte avec Hisham, guide égyptologue francophone diplômé : Louxor, Le Caire, Assouan, Hurghada, croisières sur le Nil et montgolfière.',
     url: SITE_URL,
+    image: `${SITE_URL}/images/og-default.jpg`,
+    logo: `${SITE_URL}/icons/icon-192.png`,
+    slogan: "Découvrez l'Égypte avec un guide francophone égyptologue",
+    sameAs: [
+      'https://www.facebook.com/share/1Bk4SFzjte/',
+      'https://www.instagram.com/hisham_guide_francophone_louxo',
+      'https://share.google/APD5FPIs3qZWHRu2P',
+    ],
+    founder: {
+      '@type': 'Person',
+      name: 'Hisham',
+      jobTitle: 'Guide égyptologue francophone',
+    },
     telephone: '+201002086724',
     email: 'guidefrancophonelouxor@gmail.com',
     address: {

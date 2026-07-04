@@ -30,7 +30,9 @@ export function generateMetadata({
   const fullTitle = `${title} | ${SITE_NAME}`;
 
   return {
-    title: fullTitle,
+    // `absolute` empêche le template du layout racine (`%s | SITE_NAME`)
+    // de dupliquer le suffixe déjà présent dans fullTitle.
+    title: { absolute: fullTitle },
     description,
     metadataBase: new URL(SITE_URL),
     alternates: { canonical: canonicalUrl },

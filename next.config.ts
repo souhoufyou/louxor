@@ -35,6 +35,13 @@ const nextConfig: NextConfig = {
     ];
   },
 
+  async rewrites() {
+    return [
+      // Interface d'administration Decap CMS (fichier statique public/admin/index.html)
+      { source: '/admin', destination: '/admin/index.html' },
+    ];
+  },
+
   images: {
     formats: ['image/avif', 'image/webp'],
     minimumCacheTTL: 31536000,

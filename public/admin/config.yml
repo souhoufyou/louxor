@@ -1,0 +1,285 @@
+# ═══════════════════════════════════════════════════════════════
+# Decap CMS — Configuration
+# Interface d'administration : https://www.guidefrancophonelouxor.com/admin/
+#
+# ⚠ APRÈS CRÉATION DU DÉPÔT GITHUB :
+#   remplacer « VOTRE-COMPTE/VOTRE-DEPOT » ci-dessous par le vrai
+#   dépôt (ex. : hisham-louxor/site-louxor)
+# ═══════════════════════════════════════════════════════════════
+
+backend:
+  name: github
+  repo: VOTRE-COMPTE/VOTRE-DEPOT
+  branch: master
+  base_url: https://www.guidefrancophonelouxor.com
+  auth_endpoint: api/oauth
+  commit_messages:
+    create: "CMS : création {{collection}} « {{slug}} »"
+    update: "CMS : mise à jour {{collection}} « {{slug}} »"
+    delete: "CMS : suppression {{collection}} « {{slug}} »"
+    uploadMedia: "CMS : ajout image {{path}}"
+    deleteMedia: "CMS : suppression image {{path}}"
+
+# Mode local : permet de tester le CMS sans GitHub avec « npm run cms »
+local_backend: true
+
+locale: fr
+site_url: https://www.guidefrancophonelouxor.com
+display_url: https://www.guidefrancophonelouxor.com
+
+# Les images téléversées via le CMS sont enregistrées ici
+media_folder: public/images/uploads
+public_folder: /images/uploads
+
+collections:
+  # ── Articles de blog ─────────────────────────────────────────
+  - name: blog
+    label: Articles de blog
+    label_singular: Article
+    folder: content/blog
+    extension: mdx
+    format: frontmatter
+    create: true
+    slug: "{{slug}}"
+    summary: "{{title}} — {{date}}"
+    sortable_fields: [date, title]
+    editor:
+      preview: false
+    fields:
+      - { label: Titre, name: title, widget: string, hint: "60 caractères max. recommandés pour Google" }
+      - { label: Description (SEO), name: description, widget: text, hint: "150–160 caractères. Apparaît dans les résultats Google." }
+      - { label: Date, name: date, widget: datetime, format: YYYY-MM-DD, date_format: YYYY-MM-DD, time_format: false }
+      - { label: Auteur, name: author, widget: string, default: Hisham }
+      - { label: Catégorie, name: category, widget: select, options: [Destinations, Conseils pratiques, Culture] }
+      - { label: Image principale, name: image, widget: image }
+      - { label: Mots-clés, name: tags, widget: list, hint: "Séparés par des virgules" }
+      - { label: "Articles liés (identifiants)", name: related, widget: list, required: false, hint: "Ex. : que-faire-a-louxor" }
+      - { label: Texte du bouton d'action, name: ctaText, widget: string, required: false }
+      - { label: Lien du bouton d'action, name: ctaHref, widget: string, required: false, hint: "Ex. : /contact" }
+      - { label: Contenu de l'article, name: body, widget: markdown }
+
+  # ── Pages destinations ───────────────────────────────────────
+  - name: destinations
+    label: Pages destinations
+    label_singular: Destination
+    folder: content/destinations
+    extension: json
+    format: json
+    create: false
+    delete: false
+    identifier_field: name
+    summary: "{{name}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Identifiant technique (ne pas modifier)", name: slug, widget: string }
+      - { label: "Type (ne pas modifier)", name: type, widget: string }
+      - { label: "Ancienne URL (ne pas modifier)", name: legacyPath, widget: string, required: false }
+      - { label: Nom, name: name, widget: string }
+      - label: Référencement (SEO)
+        name: seo
+        widget: object
+        fields:
+          - { label: Titre Google, name: title, widget: string }
+          - { label: Description Google, name: description, widget: text }
+      - label: Bandeau d'en-tête
+        name: hero
+        widget: object
+        fields:
+          - { label: Image, name: image, widget: image }
+          - { label: Phrase d'accroche, name: tagline, widget: string }
+      - { label: Introduction, name: intro, widget: text }
+      - label: Quartiers / zones
+        name: areas
+        widget: list
+        required: false
+        fields:
+          - { label: Nom, name: name, widget: string }
+          - { label: Description, name: description, widget: text }
+      - label: Sites incontournables
+        name: highlights
+        widget: list
+        fields:
+          - { label: Nom, name: name, widget: string }
+          - { label: Description, name: description, widget: text }
+      - label: Infos pratiques
+        name: practicalInfo
+        widget: object
+        fields:
+          - { label: Meilleure période, name: bestPeriod, widget: string }
+          - { label: Durée conseillée, name: daysRecommended, widget: string }
+          - { label: Conseils, name: tips, widget: list }
+      - label: Questions fréquentes (FAQ)
+        name: faq
+        widget: list
+        fields:
+          - { label: Question, name: question, widget: string }
+          - { label: Réponse, name: answer, widget: text }
+      - { label: "Excursions liées (identifiants)", name: relatedExcursions, widget: list, required: false }
+      - label: Galerie photos
+        name: gallery
+        widget: list
+        required: false
+        field: { label: Image, name: image, widget: image }
+
+  # ── Pages excursions ─────────────────────────────────────────
+  - name: excursions
+    label: Pages excursions
+    label_singular: Excursion
+    folder: content/excursions
+    extension: json
+    format: json
+    create: false
+    delete: false
+    identifier_field: name
+    summary: "{{name}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Identifiant technique (ne pas modifier)", name: slug, widget: string }
+      - { label: "Type (ne pas modifier)", name: type, widget: string }
+      - { label: Catégorie, name: category, widget: string, required: false }
+      - { label: "Ancienne URL (ne pas modifier)", name: legacyPath, widget: string, required: false }
+      - { label: Nom, name: name, widget: string }
+      - label: Référencement (SEO)
+        name: seo
+        widget: object
+        fields:
+          - { label: Titre Google, name: title, widget: string }
+          - { label: Description Google, name: description, widget: text }
+      - label: Bandeau d'en-tête
+        name: hero
+        widget: object
+        fields:
+          - { label: Image, name: image, widget: image }
+          - { label: Phrase d'accroche, name: tagline, widget: string }
+      - { label: Introduction, name: intro, widget: text }
+      - { label: "Déroulé de l'expérience", name: experience, widget: text, required: false }
+      - { label: Difficulté, name: difficulty, widget: string, required: false }
+      - { label: "Prix (à partir de)", name: priceFrom, widget: string, required: false }
+      - { label: Inclus, name: included, widget: list, required: false }
+      - { label: Non inclus, name: excluded, widget: list, required: false }
+      - label: Détails pratiques
+        name: details
+        widget: object
+        required: false
+        fields:
+          - { label: Durée, name: duration, widget: string, required: false }
+          - { label: Horaire, name: timing, widget: string, required: false }
+          - { label: Inclus, name: included, widget: list, required: false }
+          - { label: Fréquence, name: frequency, widget: string, required: false }
+      - label: Programmes
+        name: programs
+        widget: list
+        required: false
+        fields:
+          - { label: Titre, name: title, widget: string }
+          - { label: Durée, name: duration, widget: string }
+          - { label: Étapes, name: items, widget: list }
+      - label: Options
+        name: options
+        widget: list
+        required: false
+        fields:
+          - { label: Nom, name: name, widget: string }
+          - { label: Description, name: description, widget: text }
+      - label: Excursions à la journée
+        name: dayTrips
+        widget: list
+        required: false
+        fields:
+          - { label: Titre, name: title, widget: string }
+          - { label: Durée, name: duration, widget: string }
+          - { label: Description, name: description, widget: text }
+      - label: Couverture (transferts)
+        name: coverage
+        widget: object
+        required: false
+        fields:
+          - { label: Aéroports desservis, name: airports, widget: list, required: false }
+          - { label: Autres lieux desservis, name: alsoServes, widget: list, required: false }
+      - { label: Types de véhicules, name: vehicleTypes, widget: list, required: false }
+      - label: Questions fréquentes (FAQ)
+        name: faq
+        widget: list
+        required: false
+        fields:
+          - { label: Question, name: question, widget: string }
+          - { label: Réponse, name: answer, widget: text }
+      - { label: "Destinations liées (identifiants)", name: relatedDestinations, widget: list, required: false }
+      - label: Galerie photos
+        name: gallery
+        widget: list
+        required: false
+        field: { label: Image, name: image, widget: image }
+
+  # ── Avis clients ─────────────────────────────────────────────
+  - name: temoignages
+    label: Avis clients
+    editor:
+      preview: false
+    files:
+      - file: content/testimonials/reviews.json
+        name: reviews
+        label: Tous les avis
+        fields:
+          - { label: "Source (interne)", name: source, widget: string }
+          - { label: "Note interne", name: note, widget: text }
+          - label: Avis
+            name: reviews
+            widget: list
+            summary: "{{fields.author}} — {{fields.date}}"
+            fields:
+              - { label: Nom, name: author, widget: string }
+              - { label: Pays / ville, name: location, widget: string, required: false }
+              - { label: Date, name: date, widget: string, hint: "Ex. : 14 mars 2025" }
+              - { label: "Note (1 à 5)", name: rating, widget: number, min: 1, max: 5, value_type: int }
+              - { label: Texte, name: text, widget: text }
+
+  # ── Paramètres du site ───────────────────────────────────────
+  - name: parametres
+    label: Paramètres du site
+    editor:
+      preview: false
+    files:
+      - file: content/site.json
+        name: site
+        label: "Infos générales, guide & contact"
+        fields:
+          - { label: Nom du site, name: name, widget: string }
+          - { label: Slogan, name: tagline, widget: string }
+          - { label: Description, name: description, widget: text }
+          - { label: "URL (ne pas modifier)", name: url, widget: string }
+          - { label: "Locale (ne pas modifier)", name: locale, widget: string }
+          - label: Le guide
+            name: guide
+            widget: object
+            fields:
+              - { label: Nom, name: name, widget: string }
+              - { label: Rôle, name: role, widget: string }
+              - { label: Biographie, name: bio, widget: text }
+              - { label: Approche, name: approach, widget: text }
+          - label: Contact
+            name: contact
+            widget: object
+            fields:
+              - { label: Email, name: email, widget: string }
+              - { label: Téléphone (affiché), name: phone, widget: string }
+              - { label: "Téléphone (technique, ex. +2010...)", name: phoneRaw, widget: string }
+              - { label: Numéro WhatsApp, name: whatsapp, widget: string }
+              - { label: Adresse, name: address, widget: string }
+          - label: Réseaux sociaux
+            name: social
+            widget: object
+            fields:
+              - { label: Nom de la page Facebook, name: facebookPageName, widget: string }
+              - { label: Lien Facebook, name: facebookUrl, widget: string }
+              - { label: Lien Instagram, name: instagramUrl, widget: string }
+          - { label: Langues parlées, name: languages, widget: list }
+          - { label: Note tarifaire, name: pricingNote, widget: text }
+          - label: "Menu de navigation (avancé)"
+            name: nav
+            widget: list
+            fields:
+              - { label: Libellé, name: label, widget: string }
+              - { label: Chemin, name: path, widget: string }

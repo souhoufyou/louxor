@@ -19,14 +19,14 @@ import { JsonLd } from '@/components/JsonLd';
 import { ScrollReveal } from '@/components/ScrollReveal';
 import { ContactForm } from '@/components/ContactForm';
 import { generateMetadata as _gen } from '@/lib/seo';
-import { schemaTravelAgency, schemaWebPage, schemaAggregateRating } from '@/lib/schema';
+import { schemaTravelAgency, schemaWebPage, schemaAggregateRating, schemaFaqPage } from '@/lib/schema';
 import { getSite, getExcursions, getReviews } from '@/lib/content';
 
 export async function generateMetadata(): Promise<Metadata> {
   return _gen({
-    title: 'Guide Francophone Privé en Égypte — Hisham, Égyptologue à Louxor',
+    title: 'Guide Francophone en Égypte — Hisham, Égyptologue Privé',
     description:
-      "Je m'appelle Hisham, guide égyptologue francophone diplômé installé à Louxor. Visites 100% privées sur mesure : Louxor, Le Caire, Assouan, Mer Rouge. Devis gratuit.",
+      'Hisham, guide égyptologue francophone diplômé à Louxor. Visites 100 % privées : Vallée des Rois, Karnak, Le Caire, Assouan, Mer Rouge. Devis gratuit sous 24 h.',
     path: '/',
     ogImage: '/images/legacy/FB_IMG_1534852849841-fi17948239x490-b8d51657.jpg',
   });
@@ -53,6 +53,46 @@ const HISHAM_CLIENT_PHOTOS = [
     src: '/images/hisham/optimized/hisham-clients-corniche-louxor-800w.webp',
     alt: 'Hisham, guide francophone, avec des clients sur la corniche de Louxor',
     caption: 'Corniche de Louxor',
+  },
+];
+
+/* ── FAQ — requêtes longue traîne ───────────────────────────── */
+const HOME_FAQ = [
+  {
+    question: 'Combien coûte un guide francophone privé en Égypte ?',
+    answer:
+      "Le tarif dépend de la durée et du programme : à titre indicatif, une demi-journée guidée à Louxor commence à partir de 60 € par personne, avec transport climatisé, entrées des sites principaux et guide égyptologue inclus. Chaque devis est gratuit, personnalisé et sans engagement — vous savez exactement ce qui est compris avant de réserver.",
+    link: { label: 'Voir les programmes à Louxor', href: '/excursions/louxor' },
+  },
+  {
+    question: 'Comment réserver une excursion avec un guide francophone à Louxor ?',
+    answer:
+      "Il suffit de me contacter par WhatsApp, par téléphone ou via le formulaire de contact. Je réponds personnellement sous 24 h avec un programme adapté à vos dates, votre rythme et votre budget. Aucun acompte n'est demandé pour un devis.",
+    link: { label: 'Demander un devis gratuit', href: '/contact' },
+  },
+  {
+    question: 'Est-il sûr de voyager en Égypte en 2026 ?',
+    answer:
+      "Oui. Les sites touristiques de Louxor, du Caire, d'Assouan et de la Mer Rouge sont sécurisés et accueillent des millions de visiteurs chaque année. En visite privée, vous êtes accompagné du premier au dernier jour : transferts, billets, itinéraires — je m'occupe de tout sur place.",
+    link: { label: 'Lire mon guide sécurité 2026', href: '/blog/voyager-egypte-2026-securite' },
+  },
+  {
+    question: "Quelle est la meilleure période pour visiter Louxor et l'Égypte ?",
+    answer:
+      "D'octobre à avril, les températures sont idéales pour visiter les temples et la Vallée des Rois. L'été est très chaud mais tout à fait envisageable en commençant les visites tôt le matin. Les croisières sur le Nil, elles, se font toute l'année.",
+    link: { label: 'Découvrir la meilleure période', href: '/blog/meilleure-periode-egypte' },
+  },
+  {
+    question: 'Proposez-vous des excursions depuis Hurghada et la Mer Rouge vers Louxor ?',
+    answer:
+      "Oui, j'organise des excursions privées d'une journée vers Louxor au départ d'Hurghada, Makadi Bay, Safaga, Soma Bay et Marsa Alam, ainsi que des excursions vers Le Caire et les pyramides. Prise en charge à votre hôtel, véhicule climatisé et guide francophone toute la journée.",
+    link: { label: "Voir l'excursion Hurghada → Louxor", href: '/excursions/depuis-hurghada-vers-louxor' },
+  },
+  {
+    question: 'Quelle est la différence entre une visite privée et une excursion en groupe ?',
+    answer:
+      "En groupe, vous suivez un horaire imposé avec 30 à 50 personnes. En privé, le programme est construit pour vous : vous choisissez les sites, le rythme et les pauses, et votre guide égyptologue répond à toutes vos questions en français. C'est la garantie d'une visite plus riche et sans stress.",
+    link: { label: 'En savoir plus sur ma façon de guider', href: '/a-propos' },
   },
 ];
 
@@ -137,6 +177,7 @@ export default async function HomePage() {
         })}
       />
       {ratedReviews.length > 0 && <JsonLd data={schemaAggregateRating(ratedReviews)} />}
+      <JsonLd data={schemaFaqPage(HOME_FAQ.map(({ question, answer }) => ({ question, answer })))} />
 
       <main id="main-content">
 
@@ -524,7 +565,49 @@ export default async function HomePage() {
         </section>
 
         {/* ══════════════════════════════════════════════════════
-            6. CONTACT HUMAIN ET DIRECT
+            6. FAQ — Questions fréquentes (SEO longue traîne)
+        ══════════════════════════════════════════════════════ */}
+        <section aria-labelledby="faq-title" className="section-y bg-parchment-gradient">
+          <div className="container-narrow">
+            <ScrollReveal className="text-center">
+              <span className="text-eyebrow">Questions fréquentes</span>
+              <h2 id="faq-title" className="text-display-md mt-3 text-balance">
+                Tout savoir avant votre voyage en Égypte
+              </h2>
+              <span className="divider-gold-center mt-4" />
+            </ScrollReveal>
+
+            <div className="mt-10 space-y-4">
+              {HOME_FAQ.map((faq, i) => (
+                <ScrollReveal key={faq.question} delay={i * 60}>
+                  <details className="surface-elevated rounded-xl group">
+                    <summary className="flex items-center justify-between gap-4 cursor-pointer list-none p-6 font-display text-lg sm:text-xl">
+                      {faq.question}
+                      <span
+                        className="flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-full bg-gold/10 text-gold-accessible text-xl leading-none transition-transform duration-300 group-open:rotate-45"
+                        aria-hidden="true"
+                      >
+                        +
+                      </span>
+                    </summary>
+                    <div className="px-6 pb-6 -mt-1">
+                      <p className="text-text-muted leading-relaxed text-pretty">{faq.answer}</p>
+                      <Link
+                        href={faq.link.href}
+                        className="inline-flex items-center gap-1.5 mt-3 text-sm font-medium text-gold-accessible hover:text-gold-dark transition-colors"
+                      >
+                        {faq.link.label} <ArrowRight size={13} />
+                      </Link>
+                    </div>
+                  </details>
+                </ScrollReveal>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ══════════════════════════════════════════════════════
+            7. CONTACT HUMAIN ET DIRECT
         ══════════════════════════════════════════════════════ */}
         <section aria-labelledby="contact-title" className="section-y-lg bg-luxury-gradient relative overflow-hidden">
           <div className="container-luxury relative">
