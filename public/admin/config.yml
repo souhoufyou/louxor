@@ -2,15 +2,12 @@
 # Decap CMS — Configuration
 # Interface d'administration : https://www.guidefrancophonelouxor.com/admin/
 #
-# ⚠ APRÈS CRÉATION DU DÉPÔT GITHUB :
-#   remplacer « VOTRE-COMPTE/VOTRE-DEPOT » ci-dessous par le vrai
-#   dépôt (ex. : hisham-louxor/site-louxor)
 # ═══════════════════════════════════════════════════════════════
 
 backend:
   name: github
-  repo: VOTRE-COMPTE/VOTRE-DEPOT
-  branch: master
+  repo: souhoufyou/louxor
+  branch: main
   base_url: https://www.guidefrancophonelouxor.com
   auth_endpoint: api/oauth
   commit_messages:
