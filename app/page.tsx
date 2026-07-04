@@ -186,75 +186,88 @@ export default async function HomePage() {
         ══════════════════════════════════════════════════════ */}
         <section className="hero-section" aria-labelledby="hero-title">
           <div className="hero-bg">
-            {/* Photo — Ken Burns zoom lent */}
+            {/* Photo — montgolfière au lever du soleil, lumineuse et iconique de Louxor */}
             <Image
-              src="/images/destinations/assouan/abu-simbel-nuit-étoiles.webp"
-              alt="Temple d'Abou Simbel sous les étoiles, Égypte"
+              src="/images/hero/hero-montgolfiere-louxor-02.webp"
+              alt="Montgolfière au lever du soleil au-dessus de la montagne thébaine à Louxor, Égypte"
               fill
               priority
               fetchPriority="high"
-              sizes="(max-width: 768px) 200vw, 100vw"
-              className="object-cover object-center"
-              quality={95}
+              sizes="100vw"
+              className="object-cover object-[68%_center]"
+              quality={90}
             />
 
-            {/* Vignette bords — effet cinéma */}
+            {/* Voile gauche — lisibilité du texte sans assombrir la photo */}
             <div
               className="absolute inset-0 pointer-events-none"
-              style={{ background: 'radial-gradient(ellipse at 50% 40%, transparent 38%, rgba(4,8,14,0.60) 100%)' }}
+              style={{ background: 'linear-gradient(100deg, rgba(12,18,28,0.62) 0%, rgba(12,18,28,0.32) 38%, rgba(12,18,28,0.05) 60%, transparent 75%)' }}
               aria-hidden="true"
             />
 
-            {/* Gradient bas — chaud lever de soleil → sombre */}
+            {/* Gradient bas — transition douce vers la section suivante */}
             <div
               className="absolute inset-0 pointer-events-none"
-              style={{ background: 'linear-gradient(to top, rgba(4,8,18,0.92) 0%, rgba(140,70,20,0.18) 28%, transparent 55%)' }}
+              style={{ background: 'linear-gradient(to top, rgba(12,18,28,0.42) 0%, transparent 26%)' }}
               aria-hidden="true"
             />
 
             {/* Gradient haut — lisibilité navbar */}
             <div
               className="absolute inset-0 pointer-events-none"
-              style={{ background: 'linear-gradient(to bottom, rgba(4,8,18,0.48) 0%, transparent 28%)' }}
+              style={{ background: 'linear-gradient(to bottom, rgba(12,18,28,0.35) 0%, transparent 20%)' }}
               aria-hidden="true"
             />
-
-
           </div>
 
           <div className="hero-content container-luxury">
-            <div className="max-w-3xl">
-              <span className="text-eyebrow text-gold animate-fade-in">
-                Guide Égyptologue Diplômé · Francophone · Louxor
+            <div className="max-w-2xl">
+              {/* Badge lisible sur fond clair comme sombre */}
+              <span className="inline-flex items-center gap-2 rounded-full border border-gold/60 bg-black/30 backdrop-blur-sm px-4 py-2 text-[0.7rem] font-medium uppercase tracking-[0.18em] text-gold-muted animate-fade-in">
+                <ShieldCheck size={13} className="text-gold" aria-hidden="true" />
+                Guide officiel francophone · Égyptologue diplômé
               </span>
+
               <h1
                 id="hero-title"
-                className="text-display-xl text-white mt-4 text-balance leading-[1.02] animate-fade-up delay-100"
+                className="text-display-lg text-white mt-5 text-balance leading-[1.05] animate-fade-up delay-100"
+                style={{ textShadow: '0 2px 24px rgba(0,0,0,0.35)' }}
               >
-                Votre guide francophone privé en Égypte
+                Votre{' '}
+                <span className="text-gold-light italic">guide francophone privé</span>{' '}
+                en Égypte
               </h1>
-              <p className="text-gold-muted text-lg sm:text-xl mt-6 max-w-2xl leading-relaxed text-pretty animate-fade-up delay-200">
-                Je m'appelle <strong className="text-white">Hisham</strong>, égyptologue installé à Louxor depuis plus de 15 ans.
-                Je vous fais découvrir l'Égypte comme vous ne la verrez nulle part ailleurs —
-                en privé, en français, à votre rythme.
+
+              <p
+                className="text-white/90 text-lg sm:text-xl mt-6 max-w-xl leading-relaxed text-pretty animate-fade-up delay-200"
+                style={{ textShadow: '0 1px 12px rgba(0,0,0,0.35)' }}
+              >
+                Je m'appelle <strong className="text-white">Hisham</strong>, égyptologue installé à
+                Louxor depuis plus de 15 ans. Je vous fais découvrir l'Égypte en privé, en
+                français, à votre rythme.
               </p>
-              <div className="flex flex-wrap gap-4 mt-10 animate-fade-up delay-300">
+
+              <div className="flex flex-wrap gap-4 mt-9 animate-fade-up delay-300">
                 <a
                   href="https://wa.me/201002086724?text=Bonjour%20Hisham%2C%20je%20souhaite%20organiser%20un%20voyage%20en%20%C3%89gypte."
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn btn-primary px-8 py-4 text-sm flex items-center gap-2"
+                  className="btn btn-primary px-8 py-4 text-sm flex items-center gap-2 shadow-lg"
                 >
                   <MessageCircle size={16} />
-                  Me contacter sur WhatsApp
+                  Demander mon devis gratuit
                 </a>
-                <Link href="/excursions" className="btn btn-outline-white px-8 py-4 text-sm">
-                  Découvrir mes excursions
+                <Link
+                  href="/excursions"
+                  className="btn btn-outline-white px-8 py-4 text-sm backdrop-blur-sm bg-black/15"
+                >
+                  Voir les excursions
                 </Link>
               </div>
+
               <a
                 href="tel:+201002086724"
-                className="inline-flex items-center gap-2 mt-6 text-white/60 hover:text-gold text-sm transition-colors animate-fade-up delay-400"
+                className="inline-flex items-center gap-2 mt-6 text-white/75 hover:text-gold text-sm transition-colors animate-fade-up delay-400"
               >
                 <Phone size={14} />
                 +20 100 208 6724
@@ -266,6 +279,32 @@ export default async function HomePage() {
             <span className="scroll-indicator-line" />
           </div>
         </section>
+
+        {/* ── Barre de confiance chevauchante ─────────────────── */}
+        <div className="container-luxury relative z-10 -mt-16">
+          <ul
+            className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-y-6 bg-white rounded-2xl px-6 py-7 list-none m-0 shadow-[0_24px_64px_rgba(15,26,36,0.18),0_8px_24px_rgba(15,26,36,0.08)]"
+            aria-label="Pourquoi me faire confiance"
+          >
+            {[
+              { icon: <Star size={22} className="text-gold fill-gold" />, value: '5/5', label: 'Avis clients vérifiés' },
+              { icon: <Users size={22} className="text-gold" />, value: 'Des centaines', label: 'de voyageurs accompagnés' },
+              { icon: <Award size={22} className="text-gold" />, value: '15 ans', label: "d'expérience en Égypte" },
+              { icon: <ShieldCheck size={22} className="text-gold" />, value: 'Guide officiel', label: 'certifié & diplômé' },
+              { icon: <CheckCircle size={22} className="text-gold" />, value: '100 % privé', label: 'sur mesure, sans groupe' },
+            ].map((item) => (
+              <li key={item.value} className="flex items-center gap-3 px-2 lg:px-4">
+                <span className="flex-shrink-0 w-11 h-11 flex items-center justify-center rounded-full bg-gold/10">
+                  {item.icon}
+                </span>
+                <span className="leading-snug">
+                  <span className="block font-semibold text-ink text-[0.95rem]">{item.value}</span>
+                  <span className="block text-text-muted text-xs">{item.label}</span>
+                </span>
+              </li>
+            ))}
+          </ul>
+        </div>
 
         {/* ══════════════════════════════════════════════════════
             2. PRÉSENTATION DU GUIDE
