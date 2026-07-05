@@ -3,8 +3,36 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { JsonLd } from '@/components/JsonLd';
 import { generateMetadata as _gen } from '@/lib/seo';
-import { schemaTravelAgency, schemaBreadcrumb, schemaWebPage } from '@/lib/schema';
+import { schemaTravelAgency, schemaBreadcrumb, schemaWebPage, schemaFaqPage } from '@/lib/schema';
 import { getExcursions, getDestinations } from '@/lib/content';
+
+const EXCURSIONS_FAQ = [
+  {
+    question: "Comment réserver une excursion avec Hisham ?",
+    answer:
+      "Il vous suffit de me contacter par WhatsApp (+20 100 208 6724) ou via le formulaire de la page Contact. Je vous prépare un devis gratuit et personnalisé sous 24h. Précisez vos dates, votre lieu de départ (hôtel ou port) et le nombre de personnes — je construis le programme idéal.",
+  },
+  {
+    question: "Les excursions sont-elles en groupe ou en privé ?",
+    answer:
+      "Toutes mes excursions sont exclusivement en privé. Vous voyagez uniquement avec votre groupe (famille, couple, amis) — pas de bus de 40 personnes, pas d'horaire subi, pas d'arrêts boutiques imposés. C'est la grande différence avec les excursions vendues par les hôtels.",
+  },
+  {
+    question: "Peut-on réserver une excursion depuis Hurghada vers Louxor ?",
+    answer:
+      "Oui, c'est l'une de mes excursions les plus demandées. Depuis Hurghada, le trajet vers Louxor dure environ 3h30-4h. Nous partons très tôt le matin (5h30-6h) pour profiter au maximum de la journée sur place : Vallée des Rois, temple de Karnak, temple de Louxor. Retour le soir vers 20h-21h.",
+  },
+  {
+    question: "Les billets d'entrée des sites sont-ils inclus ?",
+    answer:
+      "Dans tous mes programmes, les billets d'entrée des sites principaux sont inclus dans le prix. Je précise toujours dans le devis ce qui est inclus et ce qui reste à votre charge (entrées optionnelles, repas, pourboires). Aucune surprise sur place.",
+  },
+  {
+    question: "Que faire si la météo est mauvaise ou si je dois annuler ?",
+    answer:
+      "L'Égypte bénéficie d'un soleil quasi constant toute l'année — la météo est rarement un problème. En cas d'imprévu de votre côté (maladie, changement de vol), je suis joignable 7j/7 et nous trouvons ensemble une solution : report, adaptation du programme ou remboursement selon les conditions convenues.",
+  },
+];
 
 export async function generateMetadata(): Promise<Metadata> {
   return _gen({
@@ -55,6 +83,7 @@ export default async function ExcursionsPage() {
         })}
       />
       <JsonLd data={schemaBreadcrumb([{ name: 'Excursions', path: '/excursions' }])} />
+      <JsonLd data={schemaFaqPage(EXCURSIONS_FAQ)} />
 
       <main id="main-content">
         {/* ── Hero ────────────────────────────────────────────── */}
@@ -181,6 +210,21 @@ export default async function ExcursionsPage() {
                 </li>
               ))}
             </ul>
+          </div>
+        </section>
+
+        {/* FAQ */}
+        <section className="section-y bg-parchment-gradient">
+          <div className="container-narrow">
+            <h2 className="text-display-md">Questions fréquentes sur les excursions</h2>
+            <dl className="mt-10 space-y-0">
+              {EXCURSIONS_FAQ.map((item, i) => (
+                <div key={item.question} className={`py-6 ${i > 0 ? 'border-t border-[var(--parchment)]' : ''}`}>
+                  <dt className="font-display text-xl font-medium">{item.question}</dt>
+                  <dd className="mt-3 text-text-muted leading-relaxed">{item.answer}</dd>
+                </div>
+              ))}
+            </dl>
           </div>
         </section>
 

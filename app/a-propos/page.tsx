@@ -7,7 +7,7 @@ import { PhotoGallery } from '@/components/PhotoGallery';
 import type { GalleryPhoto } from '@/components/PhotoGallery';
 import { JsonLd } from '@/components/JsonLd';
 import { generateMetadata as _gen } from '@/lib/seo';
-import { schemaTravelAgency, schemaBreadcrumb, schemaWebPage, schemaPerson } from '@/lib/schema';
+import { schemaTravelAgency, schemaBreadcrumb, schemaWebPage, schemaPerson, schemaFaqPage } from '@/lib/schema';
 import { getSite, getReviews } from '@/lib/content';
 import { SITE_URL } from '@/lib/seo';
 
@@ -94,6 +94,34 @@ const MES_VOYAGEURS: GalleryPhoto[] = [
   },
 ];
 
+const APROPOS_FAQ = [
+  {
+    question: "Hisham est-il un vrai guide officiel en Égypte ?",
+    answer:
+      "Oui. Hisham est titulaire d'une licence officielle de guide touristique délivrée par le Ministère du Tourisme et des Antiquités d'Égypte, ainsi que d'une licence universitaire en égyptologie de l'Institut d'Études Supérieures du Sinaï. Ce double diplôme lui permet d'exercer légalement et d'offrir des explications approfondies sur toute la civilisation pharaonique.",
+  },
+  {
+    question: "Hisham parle-t-il vraiment bien français ?",
+    answer:
+      "Hisham parle un français courant et idiomatique, acquis au contact de centaines de familles francophones depuis plus de 15 ans. Il s'exprime avec clarté et précision, adapte son vocabulaire selon l'âge et le niveau de curiosité de ses clients — des enfants aux universitaires spécialisés en histoire ancienne.",
+  },
+  {
+    question: "Hisham propose-t-il des visites pour les enfants ?",
+    answer:
+      "Absolument. Hisham est habitué à accompagner des familles avec enfants et adapte chaque explication selon l'âge. Pour les plus jeunes, il utilise des histoires, des comparaisons avec la culture contemporaine et des jeux de questions-réponses pour rendre les hiéroglyphes et les pharaons accessibles et passionnants. Les enfants en général adorent ces visites.",
+  },
+  {
+    question: "Peut-on réserver Hisham à l'avance depuis la France ?",
+    answer:
+      "Oui, et c'est même recommandé. Hisham répond par WhatsApp et email depuis la France, la Belgique, la Suisse et tout pays francophone. Il prépare un programme détaillé et un devis gratuit sur simple demande. La plupart de ses clients réservent 2 à 6 semaines avant leur départ.",
+  },
+  {
+    question: "Combien de temps à l'avance faut-il réserver Hisham ?",
+    answer:
+      "En basse saison (mai à septembre), une réservation une semaine à l'avance est généralement suffisante. En haute saison (octobre à avril) et surtout lors des vacances scolaires françaises, il est conseillé de réserver 3 à 6 semaines en avance pour être sûr d'obtenir les dates souhaitées. Contactez-le dès que vos dates sont confirmées.",
+  },
+];
+
 const STRENGTHS = [
   {
     icon: Users,
@@ -148,6 +176,7 @@ export default async function AProposPage() {
         })}
       />
       <JsonLd data={schemaBreadcrumb([{ name: 'À propos', path: '/a-propos' }])} />
+      <JsonLd data={schemaFaqPage(APROPOS_FAQ)} />
 
       <main id="main-content">
         {/* ── Hero ────────────────────────────────────────────── */}
@@ -382,6 +411,21 @@ export default async function AProposPage() {
             </div>
           </section>
         )}
+
+        {/* ── FAQ ─────────────────────────────────────────────── */}
+        <section aria-labelledby="faq-apropos-title" className="section-y bg-parchment-gradient">
+          <div className="container-narrow">
+            <h2 id="faq-apropos-title" className="text-display-md">Questions fréquentes sur Hisham</h2>
+            <dl className="mt-10 space-y-0">
+              {APROPOS_FAQ.map((item, i) => (
+                <div key={item.question} className={`py-6 ${i > 0 ? 'border-t border-[var(--parchment)]' : ''}`}>
+                  <dt className="font-display text-xl font-medium">{item.question}</dt>
+                  <dd className="mt-3 text-text-muted leading-relaxed">{item.answer}</dd>
+                </div>
+              ))}
+            </dl>
+          </div>
+        </section>
 
         {/* ── CTA ─────────────────────────────────────────────── */}
         <section aria-labelledby="cta-apropos" className="section-y bg-luxury-gradient">

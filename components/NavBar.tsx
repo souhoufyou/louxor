@@ -15,12 +15,17 @@ const NAV_ITEMS: NavItem[] = [
     path: '/louxor',
     children: [
       { label: 'Vallée des Rois', path: '/louxor/vallee-des-rois' },
+      { label: "Temple d'Hatchepsout", path: '/louxor/temple-hatchepsout' },
+      { label: 'Colosses de Memnon', path: '/louxor/colosses-de-memnon' },
       { label: 'Temple de Karnak', path: '/louxor/temple-de-karnak' },
       { label: 'Temple de Louxor', path: '/louxor/temple-de-louxor' },
       { label: 'Vallée des Reines', path: '/louxor/vallee-des-reines' },
       { label: 'Rive Ouest', path: '/louxor/rive-ouest' },
       { label: 'Rive Est', path: '/louxor/rive-est' },
       { label: 'Montgolfière', path: '/louxor/montgolfiere' },
+      { label: 'Louxor en 1 jour', path: '/louxor/itineraire-1-jour' },
+      { label: 'Louxor en 2 jours', path: '/louxor/itineraire-2-jours' },
+      { label: 'Louxor en 3 jours', path: '/louxor/itineraire-3-jours' },
     ],
   },
   {
