@@ -14,6 +14,7 @@
     "cms": "decap-server"
   },
   "dependencies": {
+    "@next/third-parties": "^16.2.10",
     "@sanity/image-url": "^2.1.1",
     "framer-motion": "^12.42.0",
     "gray-matter": "^4.0.3",

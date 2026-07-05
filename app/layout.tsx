@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from 'next';
 import { Fraunces, Inter } from 'next/font/google';
-import Script from 'next/script';
+import { GoogleAnalytics } from '@next/third-parties/google';
 import './globals.css';
 import { SITE_URL, SITE_NAME } from '@/lib/seo';
 import { NavBar } from '@/components/NavBar';
@@ -88,18 +88,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <WhatsAppButton />
         {children}
         <Footer />
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-EV9EQG5S4L"
-          strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-EV9EQG5S4L');
-          `}
-        </Script>
+        <GoogleAnalytics gaId="G-EV9EQG5S4L" />
       </body>
     </html>
   );
