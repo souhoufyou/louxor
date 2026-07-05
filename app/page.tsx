@@ -188,13 +188,13 @@ export default async function HomePage() {
           <div className="hero-bg">
             {/* Photo — montgolfière au lever du soleil, lumineuse et iconique de Louxor */}
             <Image
-              src="/images/hero/hero-montgolfiere-louxor-02.webp"
-              alt="Montgolfière au lever du soleil au-dessus de la montagne thébaine à Louxor, Égypte"
+              src="/images/destinations/louxor/temple-louxor-nuit-illumine.webp"
+              alt="Statue monumentale d'un pharaon entre les colonnes massives du temple à Louxor"
               fill
               priority
               fetchPriority="high"
               sizes="100vw"
-              className="object-cover object-[68%_center]"
+              className="object-cover object-center"
               quality={90}
             />
 

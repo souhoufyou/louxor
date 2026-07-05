@@ -198,15 +198,35 @@ export function NavBar() {
         {/* Logo */}
         <Link
           href="/"
-          className="group flex flex-col leading-none flex-shrink-0"
+          className="group flex items-center gap-3 flex-shrink-0"
           aria-label="Accueil — Guide Francophone Louxor"
         >
-          <span className="font-display text-xl font-light text-white group-hover:text-gold transition-colors duration-300">
-            Guide Francophone
-          </span>
-          <span className="text-gold text-[0.65rem] font-body tracking-[0.2em] uppercase mt-0.5">
-            Louxor · Égypte
-          </span>
+          <svg
+            viewBox="-36 -36 72 68"
+            width="38"
+            height="36"
+            aria-hidden="true"
+            className="flex-shrink-0 opacity-80 group-hover:opacity-100 transition-opacity duration-300"
+          >
+            <path d="M0,0 Q15,-2 32,-6"   stroke="#C9A961" strokeWidth="2.0" fill="none" strokeLinecap="round"/>
+            <path d="M0,0 Q13,-9 28,-18"  stroke="#C9A961" strokeWidth="1.6" fill="none" strokeLinecap="round"/>
+            <path d="M0,0 Q9,-15 19,-28"  stroke="#C9A961" strokeWidth="1.3" fill="none" strokeLinecap="round"/>
+            <path d="M0,0 Q4,-17 9,-32"   stroke="#C9A961" strokeWidth="1.0" fill="none" strokeLinecap="round"/>
+            <path d="M0,0 Q-15,-2 -32,-6"  stroke="#C9A961" strokeWidth="2.0" fill="none" strokeLinecap="round"/>
+            <path d="M0,0 Q-13,-9 -28,-18" stroke="#C9A961" strokeWidth="1.6" fill="none" strokeLinecap="round"/>
+            <path d="M0,0 Q-9,-15 -19,-28" stroke="#C9A961" strokeWidth="1.3" fill="none" strokeLinecap="round"/>
+            <path d="M0,0 Q-4,-17 -9,-32"  stroke="#C9A961" strokeWidth="1.0" fill="none" strokeLinecap="round"/>
+            <path d="M0,0 Q-4,16 0,30 Q4,16 0,0" stroke="#C9A961" strokeWidth="1.2" fill="none" strokeLinecap="round"/>
+            <circle r="2.5" fill="#C9A961"/>
+          </svg>
+          <div className="flex flex-col leading-none">
+            <span className="font-display text-xl font-light text-white group-hover:text-gold transition-colors duration-300">
+              Guide Francophone
+            </span>
+            <span className="text-gold text-[0.65rem] font-body tracking-[0.2em] uppercase mt-0.5">
+              Louxor · Égypte
+            </span>
+          </div>
         </Link>
 
         {/* Desktop links */}
@@ -228,10 +248,10 @@ export function NavBar() {
         </ul>
 
         {/* Desktop actions */}
-        <div className="hidden xl:flex items-center gap-4 flex-shrink-0">
+        <div className="hidden xl:flex items-center gap-3 flex-shrink-0">
           <a
             href="tel:+201002086724"
-            className="flex items-center gap-1.5 text-white/70 hover:text-gold text-sm transition-colors"
+            className="flex items-center gap-1.5 text-white/70 hover:text-white text-sm transition-colors"
             aria-label="Appeler Hisham"
           >
             <Phone size={13} strokeWidth={2} />
@@ -241,13 +261,13 @@ export function NavBar() {
             href="https://wa.me/201002086724?text=Bonjour%20Hisham%2C%20je%20souhaite%20un%20devis%20pour%20l%27%C3%89gypte."
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-1.5 text-[#25D366] hover:text-[#1aad56] text-sm transition-colors"
+            className="flex items-center gap-1.5 text-white hover:text-white/90 text-sm transition-colors bg-white/10 hover:bg-white/20 border border-white/20 hover:border-white/40 rounded-full px-3 py-1.5"
             aria-label="WhatsApp"
           >
-            <MessageCircle size={14} strokeWidth={2} />
+            <MessageCircle size={14} strokeWidth={2} className="text-[#25D366]" />
             <span className="hidden xl:inline">WhatsApp</span>
           </a>
-          <Link href="/contact" className="btn btn-primary py-2 px-5 text-xs">
+          <Link href="/contact" className="btn btn-primary py-2 px-5 text-xs shadow-md">
             Devis gratuit
           </Link>
         </div>
