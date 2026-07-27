@@ -19,6 +19,7 @@ import { JsonLd } from '@/components/JsonLd';
 import { ScrollReveal } from '@/components/ScrollReveal';
 import { ContactForm } from '@/components/ContactForm';
 import { GoogleReviewsButton } from '@/components/GoogleReviewsButton';
+import { GoogleTrustBadge } from '@/components/GoogleTrustBadge';
 import { generateMetadata as _gen } from '@/lib/seo';
 import { schemaTravelAgency, schemaWebPage, schemaAggregateRating, schemaFaqPage } from '@/lib/schema';
 import { getSite, getExcursions, getReviews } from '@/lib/content';
@@ -164,6 +165,12 @@ export default async function HomePage() {
     .filter((r) => r.rating)
     .map((r) => ({ author: r.author, rating: r.rating!, text: r.text, date: r.date }));
 
+  // Note moyenne et volume pour le badge de confiance dans le hero
+  const avgRating = ratedReviews.length
+    ? ratedReviews.reduce((s, r) => s + r.rating, 0) / ratedReviews.length
+    : 5;
+  const reviewsCount = ratedReviews.length;
+
   void excursions; // utilisé pour le comptage SEO si besoin
 
   return (
@@ -223,11 +230,14 @@ export default async function HomePage() {
 
           <div className="hero-content container-luxury">
             <div className="max-w-2xl">
-              {/* Badge lisible sur fond clair comme sombre */}
-              <span className="inline-flex items-center gap-2 rounded-full border border-gold/60 bg-black/30 backdrop-blur-sm px-4 py-2 text-[0.7rem] font-medium uppercase tracking-[0.18em] text-gold-muted animate-fade-in">
-                <ShieldCheck size={13} className="text-gold" aria-hidden="true" />
-                Guide officiel francophone · Égyptologue diplômé
-              </span>
+              {/* Preuve sociale visible dès le hero — badge crédentiel + note Google */}
+              <div className="flex flex-wrap items-center gap-2 animate-fade-in">
+                <span className="inline-flex items-center gap-2 rounded-full border border-gold/60 bg-black/30 backdrop-blur-sm px-4 py-2 text-[0.7rem] font-medium uppercase tracking-[0.18em] text-gold-muted">
+                  <ShieldCheck size={13} className="text-gold" aria-hidden="true" />
+                  Guide officiel francophone · Égyptologue diplômé
+                </span>
+                <GoogleTrustBadge rating={avgRating} count={reviewsCount} theme="light" />
+              </div>
 
               <h1
                 id="hero-title"
