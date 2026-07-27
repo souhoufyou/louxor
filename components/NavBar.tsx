@@ -55,7 +55,7 @@ const NAV_ITEMS: NavItem[] = [
   },
   {
     label: 'Destinations',
-    path: '/excursions',
+    path: '/destinations',
     children: [
       { label: 'Le Caire & Pyramides', path: '/caire' },
       { label: 'Assouan & Abou Simbel', path: '/assouan' },
@@ -113,9 +113,9 @@ function DropdownMenu({ item, closeAll }: { item: NavItem & { children: { label:
         onMouseEnter={show}
         onMouseLeave={hide}
       >
-        {item.children.map((child) => (
+        {item.children.map((child, idx) => (
           <Link
-            key={child.path}
+            key={`${item.label}-${child.path}-${idx}`}
             href={child.path}
             onClick={closeAll}
             tabIndex={open ? 0 : -1}
@@ -168,8 +168,8 @@ function MobileAccordion({
           open ? 'max-h-[720px] pb-2' : 'max-h-0'
         }`}
       >
-        {item.children.map((child) => (
-          <li key={child.path}>
+        {item.children.map((child, idx) => (
+          <li key={`${item.label}-${child.path}-${idx}`}>
             <Link
               href={child.path}
               onClick={closeDrawer}
@@ -258,9 +258,9 @@ export function NavBar() {
         <ul className="hidden xl:flex items-center gap-5 list-none p-0 m-0 flex-nowrap">
           {NAV_ITEMS.map((item) =>
             item.children ? (
-              <DropdownMenu key={item.path} item={item as NavItem & { children: { label: string; path: string }[] }} closeAll={closeAll} />
+              <DropdownMenu key={item.label} item={item as NavItem & { children: { label: string; path: string }[] }} closeAll={closeAll} />
             ) : (
-              <li key={item.path}>
+              <li key={item.label}>
                 <Link
                   href={item.path}
                   className="text-white/80 hover:text-gold text-[0.8125rem] font-medium tracking-wide transition-colors duration-200 link-underline whitespace-nowrap"
@@ -327,12 +327,12 @@ export function NavBar() {
             {NAV_ITEMS.map((item) =>
               item.children ? (
                 <MobileAccordion
-                  key={item.path}
+                  key={item.label}
                   item={item as NavItem & { children: { label: string; path: string }[] }}
                   closeDrawer={closeAll}
                 />
               ) : (
-                <li key={item.path} className="border-b border-white/8">
+                <li key={item.label} className="border-b border-white/8">
                   <Link
                     href={item.path}
                     onClick={closeAll}

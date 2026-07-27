@@ -169,7 +169,6 @@ export default async function HomePage() {
   const avgRating = ratedReviews.length
     ? ratedReviews.reduce((s, r) => s + r.rating, 0) / ratedReviews.length
     : 5;
-  const reviewsCount = ratedReviews.length;
 
   void excursions; // utilisé pour le comptage SEO si besoin
 
@@ -230,13 +229,11 @@ export default async function HomePage() {
 
           <div className="hero-content container-luxury">
             <div className="max-w-2xl">
-              {/* Preuve sociale visible dès le hero — badge crédentiel + note Google */}
-              <div className="flex flex-wrap items-center gap-2 animate-fade-in">
+              <div className="animate-fade-in">
                 <span className="inline-flex items-center gap-2 rounded-full border border-gold/60 bg-black/30 backdrop-blur-sm px-4 py-2 text-[0.7rem] font-medium uppercase tracking-[0.18em] text-gold-muted">
                   <ShieldCheck size={13} className="text-gold" aria-hidden="true" />
                   Guide officiel francophone · Égyptologue diplômé
                 </span>
-                <GoogleTrustBadge rating={avgRating} count={reviewsCount} theme="light" />
               </div>
 
               <h1
@@ -258,16 +255,17 @@ export default async function HomePage() {
                 français, à votre rythme.
               </p>
 
-              <div className="flex flex-wrap gap-4 mt-9 animate-fade-up delay-300">
-                <a
-                  href="https://wa.me/201002086724?text=Bonjour%20Hisham%2C%20je%20souhaite%20organiser%20un%20voyage%20en%20%C3%89gypte."
-                  target="_blank"
-                  rel="noopener noreferrer"
+              <div className="mt-7 animate-fade-up delay-250">
+                <GoogleTrustBadge rating={avgRating} theme="light" />
+              </div>
+
+              <div className="flex flex-wrap gap-4 mt-7 animate-fade-up delay-300">
+                <Link
+                  href="/contact"
                   className="btn btn-primary px-8 py-4 text-sm flex items-center gap-2 shadow-lg"
                 >
-                  <MessageCircle size={16} />
                   Demander mon devis gratuit
-                </a>
+                </Link>
                 <Link
                   href="/excursions"
                   className="btn btn-outline-white px-8 py-4 text-sm backdrop-blur-sm bg-black/15"
@@ -276,13 +274,6 @@ export default async function HomePage() {
                 </Link>
               </div>
 
-              <a
-                href="tel:+201002086724"
-                className="inline-flex items-center gap-2 mt-6 text-white/75 hover:text-gold text-sm transition-colors animate-fade-up delay-400"
-              >
-                <Phone size={14} />
-                +20 100 208 6724
-              </a>
             </div>
           </div>
 
