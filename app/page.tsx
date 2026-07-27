@@ -18,6 +18,7 @@ import { PhotoGallery } from '@/components/PhotoGallery';
 import { JsonLd } from '@/components/JsonLd';
 import { ScrollReveal } from '@/components/ScrollReveal';
 import { ContactForm } from '@/components/ContactForm';
+import { GoogleReviewsButton } from '@/components/GoogleReviewsButton';
 import { generateMetadata as _gen } from '@/lib/seo';
 import { schemaTravelAgency, schemaWebPage, schemaAggregateRating, schemaFaqPage } from '@/lib/schema';
 import { getSite, getExcursions, getReviews } from '@/lib/content';
@@ -595,10 +596,11 @@ export default async function HomePage() {
               ))}
             </ul>
 
-            <ScrollReveal className="text-center mt-10">
+            <ScrollReveal className="mt-10 flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Link href="/avis" className="btn btn-outline-white">
                 Voir tous mes avis →
               </Link>
+              <GoogleReviewsButton variant="outline-white">Voir sur Google</GoogleReviewsButton>
             </ScrollReveal>
           </div>
         </section>

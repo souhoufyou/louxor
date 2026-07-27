@@ -2,6 +2,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { JsonLd } from '@/components/JsonLd';
+import { GoogleReviewsButton, LeaveGoogleReviewLink } from '@/components/GoogleReviewsButton';
 import { generateMetadata as _gen } from '@/lib/seo';
 import { schemaTravelAgency, schemaAggregateRating, schemaBreadcrumb } from '@/lib/schema';
 import { getReviews } from '@/lib/content';
@@ -63,6 +64,9 @@ export default async function AvisPage() {
               </div>
               <span className="font-display text-2xl text-gold-accessible">{avg}</span>
               <span className="text-caption">/ 5 — {rated.length} avis</span>
+            </div>
+            <div className="mt-8">
+              <GoogleReviewsButton />
             </div>
           </div>
         </section>
@@ -132,6 +136,9 @@ export default async function AvisPage() {
             <Link href="/contact" className="btn btn-primary mt-8 inline-flex">
               Demander un devis gratuit
             </Link>
+            <div className="mt-10 pt-8 border-t border-white/10">
+              <LeaveGoogleReviewLink />
+            </div>
           </div>
         </section>
       </main>
