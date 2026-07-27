@@ -198,7 +198,7 @@ export default function ItinerairUnJourPage() {
                   desc: "Fin de cette journée inoubliable. Je vous dépose à votre hôtel ou bateau de croisière avec, en plus des souvenirs, une compréhension profonde de 4 000 ans d'histoire égyptienne.",
                   cote: 'retour',
                 },
-              ].map((etape, i) => (
+              ].map((etape) => (
                 <li key={etape.time} className="grid grid-cols-[80px_1fr] gap-6 pb-8">
                   <div className="pt-1">
                     <span className="font-mono text-gold font-semibold text-sm">{etape.time}</span>

@@ -6,6 +6,7 @@ import { SITE_URL, SITE_NAME } from '@/lib/seo';
 import { NavBar } from '@/components/NavBar';
 import { WhatsAppButton } from '@/components/WhatsAppButton';
 import { Footer } from '@/components/Footer';
+import { ConversionTracking } from '@/components/ConversionTracking';
 
 const fraunces = Fraunces({
   variable: '--font-fraunces',
@@ -88,6 +89,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <WhatsAppButton />
         {children}
         <Footer />
+        <ConversionTracking />
         <GoogleAnalytics gaId="G-EV9EQG5S4L" />
       </body>
     </html>

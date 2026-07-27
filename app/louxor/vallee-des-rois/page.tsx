@@ -9,9 +9,9 @@ import { schemaTravelAgency, schemaBreadcrumb } from '@/lib/schema';
 
 export async function generateMetadata(): Promise<Metadata> {
   return _gen({
-    title: 'Vallée des Rois à Louxor | Guide Francophone Privé — Hisham',
+    title: 'Vallée des Rois : visite privée, tombes et billets — Louxor',
     description:
-      'Visitez la Vallée des Rois avec Hisham, guide égyptologue francophone. 63 tombes royales, tombe de Toutânkhamon, explications passionnées. Visite privée sur mesure depuis Louxor.',
+      'Visite privée de la Vallée des Rois avec Hisham, égyptologue francophone : quelles tombes choisir parmi les 63, billets et suppléments, meilleur horaire. Dès 80 €/personne, devis gratuit.',
     path: '/louxor/vallee-des-rois',
     ogImage: '/images/destinations/louxor/vallee-des-rois-panorama.webp',
   });

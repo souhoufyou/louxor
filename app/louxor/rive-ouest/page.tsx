@@ -92,6 +92,21 @@ export default function RiveOuestPage() {
           </div>
         </section>
 
+        <section className="section-y bg-parchment-gradient">
+          <div className="container-narrow">
+            <h2 className="text-display-md">Et de l&apos;autre côté du Nil ?</h2>
+            <p className="mt-6 text-lg text-text-muted leading-relaxed text-pretty">
+              La rive ouest était le royaume des morts ; la rive est, celui des vivants. C&apos;est là que
+              se dressent les deux temples les plus monumentaux de Louxor, et c&apos;est là que bat encore
+              le cœur de la ville moderne. Beaucoup de mes clients consacrent une matinée à chaque rive.
+            </p>
+            <div className="flex flex-wrap gap-4 mt-8">
+              <Link href="/louxor/rive-est" className="btn btn-outline">Découvrir la rive est</Link>
+              <Link href="/louxor/itineraire-2-jours" className="btn btn-outline">Louxor en 2 jours</Link>
+            </div>
+          </div>
+        </section>
+
         <section className="section-y bg-luxury-gradient">
           <div className="container-narrow text-center">
             <h2 className="text-display-md text-white">Explorer la rive ouest avec moi</h2>

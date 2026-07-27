@@ -2,6 +2,7 @@
 
 import { useState, useCallback } from 'react';
 import { Send, CheckCircle, AlertCircle, Loader2 } from 'lucide-react';
+import { trackEvent } from '@/lib/analytics';
 
 interface FormState {
   nom: string;
@@ -91,6 +92,10 @@ export function ContactFormFull() {
         setServerError(data.error ?? 'Une erreur est survenue.');
         setStatus('error');
       } else {
+        trackEvent('form_submit', {
+          form_name: 'devis_complet',
+          type_voyage: form.typeVoyage || '(non precise)',
+        });
         setStatus('success');
       }
     } catch {

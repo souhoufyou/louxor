@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { Send, CheckCircle, AlertCircle } from 'lucide-react';
+import { trackEvent } from '@/lib/analytics';
 
 export function ContactForm() {
   const [form, setForm] = useState({ name: '', email: '', message: '' });
@@ -26,12 +27,13 @@ export function ContactForm() {
       });
 
       const data = await res.json();
-      if (!res.ok) throw new Error(data.error || 'Erreur lors de l&apos;envoi');
+      if (!res.ok) throw new Error(data.error || "Erreur lors de l'envoi");
 
+      trackEvent('form_submit', { form_name: 'contact_court' });
       setSubmitted(true);
       setForm({ name: '', email: '', message: '' });
     } catch (err) {
-      setError(err instanceof Error ? err.message : 'Erreur lors de l&apos;envoi');
+      setError(err instanceof Error ? err.message : "Erreur lors de l'envoi");
     } finally {
       setLoading(false);
     }

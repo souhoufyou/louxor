@@ -53,7 +53,18 @@ const NAV_ITEMS: NavItem[] = [
       { label: 'Marsa Alam → Louxor', path: '/excursions/depuis-marsa-alam-vers-louxor' },
     ],
   },
-  { label: 'Croisières', path: '/croisieres-en-egypte-sur-le-nil' },
+  {
+    label: 'Destinations',
+    path: '/excursions',
+    children: [
+      { label: 'Le Caire & Pyramides', path: '/caire' },
+      { label: 'Assouan & Abou Simbel', path: '/assouan' },
+      { label: 'Hurghada', path: '/hurghada' },
+      { label: 'Croisières sur le Nil', path: '/croisieres-en-egypte-sur-le-nil' },
+      { label: 'Montgolfière', path: '/montgolfiere' },
+      { label: 'Transferts aéroport', path: '/service-de-transfert-aeroport' },
+    ],
+  },
   { label: 'Blog', path: '/blog' },
   { label: 'À propos', path: '/a-propos' },
 ];
@@ -91,24 +102,29 @@ function DropdownMenu({ item, closeAll }: { item: NavItem & { children: { label:
         />
       </Link>
 
-      {open && (
-        <div
-          className="absolute left-0 top-full mt-1 min-w-[220px] bg-nil-deep/98 backdrop-blur-md border border-white/10 rounded-xl shadow-[0_8px_32px_rgba(0,0,0,0.4)] py-2 z-50"
-          onMouseEnter={show}
-          onMouseLeave={hide}
-        >
-          {item.children.map((child) => (
-            <Link
-              key={child.path}
-              href={child.path}
-              onClick={closeAll}
-              className="block px-4 py-2.5 text-[0.8125rem] text-white/80 hover:text-gold hover:bg-white/5 transition-colors"
-            >
-              {child.label}
-            </Link>
-          ))}
-        </div>
-      )}
+      {/* Toujours rendu dans le DOM (masqué en CSS) pour que les crawlers
+          voient ces liens sans avoir à déclencher le survol. */}
+      <div
+        className={`absolute left-0 top-full mt-1 min-w-[220px] bg-nil-deep/98 backdrop-blur-md border border-white/10 rounded-xl shadow-[0_8px_32px_rgba(0,0,0,0.4)] py-2 z-50 transition-all duration-200 ${
+          open
+            ? 'opacity-100 visible translate-y-0'
+            : 'opacity-0 invisible -translate-y-1 pointer-events-none'
+        }`}
+        onMouseEnter={show}
+        onMouseLeave={hide}
+      >
+        {item.children.map((child) => (
+          <Link
+            key={child.path}
+            href={child.path}
+            onClick={closeAll}
+            tabIndex={open ? 0 : -1}
+            className="block px-4 py-2.5 text-[0.8125rem] text-white/80 hover:text-gold hover:bg-white/5 transition-colors"
+          >
+            {child.label}
+          </Link>
+        ))}
+      </div>
     </li>
   );
 }
@@ -146,21 +162,25 @@ function MobileAccordion({
         </button>
       </div>
 
-      {open && (
-        <ul className="pb-2 list-none p-0 m-0">
-          {item.children.map((child) => (
-            <li key={child.path}>
-              <Link
-                href={child.path}
-                onClick={closeDrawer}
-                className="block py-2.5 pl-6 pr-4 text-sm text-white/60 hover:text-gold transition-colors"
-              >
-                {child.label}
-              </Link>
-            </li>
-          ))}
-        </ul>
-      )}
+      {/* Toujours rendu dans le DOM (replié en CSS) pour rester crawlable. */}
+      <ul
+        className={`list-none p-0 m-0 overflow-hidden transition-all duration-300 ${
+          open ? 'max-h-[720px] pb-2' : 'max-h-0'
+        }`}
+      >
+        {item.children.map((child) => (
+          <li key={child.path}>
+            <Link
+              href={child.path}
+              onClick={closeDrawer}
+              tabIndex={open ? 0 : -1}
+              className="block py-2.5 pl-6 pr-4 text-sm text-white/60 hover:text-gold transition-colors"
+            >
+              {child.label}
+            </Link>
+          </li>
+        ))}
+      </ul>
     </li>
   );
 }
