@@ -29,9 +29,18 @@ const nextConfig: NextConfig = {
 
   async redirects() {
     return [
-      { source: '/accueil',     destination: '/',          permanent: true },
-      { source: '/visites',     destination: '/excursions', permanent: true },
-      { source: '/livre-dor',   destination: '/avis',       permanent: true },
+      // Anciennes URLs Jimdo
+      { source: '/accueil',   destination: '/',           permanent: true },
+      { source: '/visites',   destination: '/excursions', permanent: true },
+      { source: '/livre-dor', destination: '/avis',       permanent: true },
+      // Anciennes URLs Jimdo avec ?mobile=true — Google les traite comme du contenu duplique.
+      // Les keys nommees dans `has` sont automatiquement retirees de la destination par Next.
+      {
+        source: '/:path*',
+        has: [{ type: 'query', key: 'mobile', value: 'true' }],
+        destination: '/:path*',
+        permanent: true,
+      },
     ];
   },
 

@@ -10,6 +10,9 @@ module.exports = {
   generateRobotsTxt: false,
   sitemapSize: 5000,
   outDir: 'public',
+  // Ressources techniques exclues du sitemap : Google confond ces fichiers
+  // avec des pages HTML et les liste comme "Detectee, non indexee" dans Search Console.
+  exclude: ['/icon.svg', '/icon.png', '/robots.txt', '/manifest.json', '/admin', '/admin/*'],
   transform: async (_config, path) => {
     const PRIORITIES = {
       '/': 1.0,
