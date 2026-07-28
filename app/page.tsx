@@ -546,7 +546,7 @@ export default async function HomePage() {
                   ))}
                 </span>
                 <span className="text-gold font-semibold">5/5</span>
-                <span className="text-white/50 text-sm">— {reviews.length} avis authentiques</span>
+                <span className="text-white/50 text-sm">— avis authentiques</span>
               </div>
             </ScrollReveal>
 

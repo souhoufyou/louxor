@@ -274,24 +274,6 @@ export function NavBar() {
 
         {/* Desktop actions */}
         <div className="hidden xl:flex items-center gap-3 flex-shrink-0">
-          <a
-            href="tel:+201002086724"
-            className="flex items-center gap-1.5 text-white/70 hover:text-white text-sm transition-colors"
-            aria-label="Appeler Hisham"
-          >
-            <Phone size={13} strokeWidth={2} />
-            <span className="hidden xl:inline">+20 100 208 6724</span>
-          </a>
-          <a
-            href="https://wa.me/201002086724?text=Bonjour%20Hisham%2C%20je%20souhaite%20un%20devis%20pour%20l%27%C3%89gypte."
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-1.5 text-white hover:text-white/90 text-sm transition-colors bg-white/10 hover:bg-white/20 border border-white/20 hover:border-white/40 rounded-full px-3 py-1.5"
-            aria-label="WhatsApp"
-          >
-            <MessageCircle size={14} strokeWidth={2} className="text-[#25D366]" />
-            <span className="hidden xl:inline">WhatsApp</span>
-          </a>
           <Link href="/contact" className="btn btn-primary py-2 px-5 text-xs shadow-md">
             Devis gratuit
           </Link>
